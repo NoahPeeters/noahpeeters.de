@@ -51,6 +51,7 @@ search: true
 search_full_content: true
 
 bing_site_verification: BAD85875E61EAC15E60333093CFC4938
+yandex_site_verification: 02fb0dc92e13682b
 
 plugins:
   - jekyll-feed
