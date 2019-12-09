@@ -50,6 +50,8 @@ minimal_mistakes_skin: "mint"
 search: true
 search_full_content: true
 
+bing_site_verification: BAD85875E61EAC15E60333093CFC4938
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
