@@ -1,0 +1,20 @@
+.sidebar {
+    opacity: 1;
+}
+
+.sidebar img {
+    max-width: 175px;
+}
+
+.sidebar.sticky {
+    height: auto;
+}
+
+body {
+    font-family: $global-font-family;
+    font-size: 18px;
+}
+
+.archive__item-excerpt {
+    font-size: 1em;
+}

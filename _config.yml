@@ -1,0 +1,128 @@
+title: Noah Peeters
+email: noah@noahpeeters.de
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: noah_peeters
+github_username: NoahPeeters
+
+author:
+  name: "Noah N. Peeters"
+  avatar: "/assets/images/profile.jpg"
+  bio: "CS Student and iOS Developer"
+  location: Geesthacht, Germany
+  email: "noah@noahpeeters.de"
+  github: "noahpeeters"
+  keybase: "noahpeeters"
+  linkedin: "noahpeeters"
+  stackoverflow: "10961090/noah-peeters?tab=profile"
+  twitter: "@noah_peeters"
+  xing: "Noah_Peeters"
+  links:
+    - label: "Apple Music"
+      icon: "fas fa-fw fa-link"
+      url: "https://music.apple.com/profile/noahpeeters"
+    - label: "GPG Key"
+      icon: "fas fa-fw fa-key"
+      url: "/assets/files/Noah%20Noel%20Peeters%20(9E84A851)%20–%20Public.asc"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-154187903-1"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication-single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+# Exclude & Exclude from processing.
+include:
+  - _pages
+  - _sass
+  - _well-known
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections_dir: _pages
+
+github: [metadata]
