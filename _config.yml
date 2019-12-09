@@ -23,7 +23,7 @@ author:
   xing: "Noah_Peeters"
   links:
     - label: "Apple Music"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-music"
       url: "https://music.apple.com/profile/noahpeeters"
     - label: "GPG Key"
       icon: "fas fa-fw fa-key"
