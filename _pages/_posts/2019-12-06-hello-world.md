@@ -1,6 +1,6 @@
 ---
 title: 'Hello World'
-permalink: /posts/2019/12/blog-post-hello-world/
+permalink: /blog/2019-12-hello-world/
 date: 2019-12-07
 tags:
 ---

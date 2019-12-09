@@ -3,6 +3,7 @@ permalink: /year-archive/
 title: "Blog posts"
 redirect_from:
   - /wordpress/blog-posts/
+  - /blog/
 ---
 
 {% capture written_year %}'None'{% endcapture %}
