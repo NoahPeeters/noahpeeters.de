@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.13"
   gem "jekyll-include-cache", "~> 0.2.0"
   gem 'jekyll-sitemap', '~> 1.4'
+  gem 'jemoji', '~> 0.11.1'
   gem 'hawkins', '~> 2.0'
 end
 

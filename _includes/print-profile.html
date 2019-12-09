@@ -1,0 +1,41 @@
+<div class="print-profile">
+    <div class="print-profile-column-keys">
+        Name<br/>
+        E-Mail<br/>
+        Phone<br/>
+        Location<br/>
+        Citizenship
+    </div>
+    <div class="print-profile-column-values">
+        Noah N. Peeters<br/>
+        <a href="mailto:noah@noahpeeters.de">noah@noahpeeters.de</a><br/>
+        +49 171 8952156‬<br/>
+        Geesthacht, Germany<br/>
+        German
+    </div>
+    <div class="print-profile-column-picture">
+        {% assign author = site.author %}
+        {% if author.avatar %}
+            <div class="author__avatar">
+            {% if author.avatar contains "://" %}
+                {% assign author_src = author.avatar %}
+            {% else %}
+                {% assign author_src = author.avatar | relative_url %}
+            {% endif %}
+
+            {% if author.home %}
+                {% if author.home contains "://" %}
+                {% assign author_link = author.home %}
+                {% else %}
+                {% assign author_link = author.home | relative_url %}
+                {% endif %}
+                <a href="{{ author_link }}">
+                <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+                </a>
+            {% else %}
+                <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+            {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</div>

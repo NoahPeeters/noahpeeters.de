@@ -5,30 +5,28 @@ collection: searchable
 redirect_from:
   - /resume
 ---
+{% include print-profile.html %}
+
+<a class="print-hidden" href="#" onclick="window.print();">[Printable Version]</a>
 
 Education
 --------
-* **Primary School**, Silberbergschule
-  * **Date:**  August 2005 to July 2009
-* **Abitur**, Otto-Hahn-Gymnasium Geesthacht
-  * **Date:**  August 2009 to June 2017
-* **B.S. in Applied Computer Sciene**, Nordakademie
-  * **Date:**  October 2017 to February 2021 (expected)
+* **Primary School**, _Silberbergschule_, August 2005 to July 2009
+* **Abitur**, _Otto-Hahn-Gymnasium Geesthacht_, August 2009 to June 2017
+* **B.S. in Applied Computer Sciene**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to February 2021 (expected)
 
 Scholarships
 --------
-* **WWDC19 Scholarship**, Apple
-  * **Date:**  June 2019
-* **Intercultural Communication Summer Institute**, Fulbright
-  * **Date:**  July 2019
+* **WWDC19 Scholarship**, _Apple Inc._, June 2019
+* **Intercultural Communication Summer Institute**, _Fulbright_, July 2019
 
 Work experience
 --------
-* **Internship**, *Computacenter AG & Co oHG*, March 2014
-* **Internship**, expert AG, November 2015
-* **iOS Developer**, freenet.de GmbH, October 2017 to _present_
+* **Internship**, _Computacenter AG & Co oHG_, March 2014
+* **Internship**, _expert AG_, November 2015
+* **iOS Developer**, _freenet.de GmbH_, October 2017 to _present_
 
-Skills
+Technical Skills
 --------
 * iOS development
 
@@ -44,7 +42,17 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+Languages
+--------
+* 🇩🇪 **German** (native)
+* 🇺🇸 **English** (oral and written fluency)
+* 🇫🇷 **French** (DELF A2)
+
 Service and leadership
 --------
 * JAV (Youth and apprentice representation) for freenet AG @ Hamburg since Fall 2019
 * Board member of the student organisation "Studentengemeinschaft Nordakademie e.V." since Spring 2018
+
+Memberships
+--------
+* **Fulbright Alumni e.V.**, *The German Fulbright Alumni Association*

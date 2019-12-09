@@ -1,0 +1,51 @@
+.print-profile {
+    display: none;
+}
+
+@media print {
+    body {
+        font-size: 12px;
+        padding: 50px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .breadcrumbs, .print-hidden {
+        display: none;
+    }
+
+    .print-profile {
+        display: flex;
+    }
+
+    .author__avatar {
+        display: inline !important;
+    }
+
+    .print-profile-column-keys {
+        flex: 30%;
+        text-align: right;
+        margin-right: 15px;
+    }
+
+    .print-profile-column-values {
+        flex: 40%;
+        margin-left: 15px;
+    }
+
+    .print-profile-column-picture {
+        flex: 30%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .print-profile-column-picture img {
+        transform: scale(1.5) translate(0px, -30px);
+    }
+
+    h2 {
+        font-weight: normal;
+    }
+}

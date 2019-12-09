@@ -58,6 +58,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jemoji
 
 # sass
 sass:
@@ -111,6 +112,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
       share: true
       comments: true
   # _publications
@@ -120,6 +122,7 @@ defaults:
     values:
       layout: publication-single
       author_profile: true
+      read_time: true
       share: true
       comments: true
   # _portfolio
@@ -129,6 +132,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
       share: true
       comment: true
 
