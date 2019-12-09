@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+collection: searchable
 redirect_from:
   - /resume
 ---
