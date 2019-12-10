@@ -22,3 +22,21 @@ body {
 a.no-stying {
     color: $text-color;
 }
+
+@-webkit-keyframes intro {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes intro {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
