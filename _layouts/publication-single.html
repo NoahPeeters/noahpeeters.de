@@ -10,6 +10,10 @@ layout: single
     <strong><i class="fa fa-fw fa-bookmark" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].citation_label | default: "Citation:" }}</strong> {{ page.citation }}<br/>
 {% endif %}
 
+{% if page.paperlanguage %}
+    <strong><i class="fa fa-fw fa-language" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].language_label | default: "Language:" }}</strong> {{ page.paperlanguage }}<br/>
+{% endif %}
+
 {% if page.paperurl %}
     <a class="no-stying" href={{site.url}}{{page.paperurl}}><strong><i class="fa fa-fw fa-file-download" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].download_label | default: "Download" }}</strong></a><br/>
 {% endif %}

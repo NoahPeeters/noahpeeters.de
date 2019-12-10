@@ -3,7 +3,9 @@ title: "Zusammenfassung Oberstufe Physik"
 collection: publications
 excerpt: 'In this paper, I summarized all topics we discussed in school in physics.'
 date: 2017-08-01
+last_modified_at: 2019-12-10
 paperurl: '/assets/files/peeters_noah-oberstufe_physik.pdf'
+paperlanguage: 'German'
 citation: 'Noah Peeters (2017). &quot;Zusammenfassung Oberstufe Physik&quot;'
 ---
 
