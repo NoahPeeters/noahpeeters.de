@@ -1,7 +1,7 @@
 ---
 title: "CV"
 permalink: /cv/
-collection: searchable
+excerpt: My CV
 redirect_from:
   - /resume
 ---
@@ -13,7 +13,7 @@ Education
 --------
 * **Primary School**, _Silberbergschule_, August 2005 to July 2009
 * **Abitur**, _Otto-Hahn-Gymnasium Geesthacht_, August 2009 to June 2017
-* **B.S. in Applied Computer Sciene**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to February 2021 (expected)
+* **B.S. in Applied Computer Science**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to March 2021 (expected)
 
 Scholarships
 --------
@@ -44,9 +44,9 @@ Teaching
 
 Languages
 --------
-* 🇩🇪 **German** (native)
-* 🇺🇸 **English** (oral and written fluency)
-* 🇫🇷 **French** (DELF A2)
+* :de: **German** (native)
+* :us: **English** (oral and written fluency)
+* :fr: **French** (DELF A2)
 
 Service and leadership
 --------

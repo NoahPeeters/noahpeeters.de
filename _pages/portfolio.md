@@ -1,5 +1,6 @@
 ---
 title: "Portfolio"
+excerpt: My public projects
 permalink: /portfolio/
 ---
 

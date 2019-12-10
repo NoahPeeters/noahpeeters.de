@@ -1,9 +1,8 @@
 ---
 title: "Teaching"
+excerpt: My teaching experiences
 permalink: /teaching/
 ---
-
-Here you can find a collection of lectures I gave.
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}

@@ -16,34 +16,40 @@ var store = [
       {%- else -%}
         {%- assign teaser = site.teaser -%}
       {%- endif -%}
+      {%- capture doc_text -%}
+        {%- if site.search_full_content == true -%}
+          {{ doc.content | newline_to_br |
+            replace:"<br />", " " |
+            replace:"</p>", " " |
+            replace:"</h1>", " " |
+            replace:"</h2>", " " |
+            replace:"</h3>", " " |
+            replace:"</h4>", " " |
+            replace:"</h5>", " " |
+            replace:"</h6>", " "|
+            split:"{"|first|
+            strip_html | strip_newlines | strip }}
+        {%- else -%}
+          {{ doc.content | newline_to_br |
+            replace:"<br />", " " |
+            replace:"</p>", " " |
+            replace:"</h1>", " " |
+            replace:"</h2>", " " |
+            replace:"</h3>", " " |
+            replace:"</h4>", " " |
+            replace:"</h5>", " " |
+            replace:"</h6>", " "|
+            split:"{"|first|
+            strip_html | strip_newlines | strip | truncatewords: 50 }}
+        {%- endif -%}
+      {%- endcapture -%}
+
+      {% assign truncated_doc_text = doc_text | truncatewords: 20 %}
+
       {
         "title": {{ doc.title | jsonify }},
-        "excerpt":
-          {%- if site.search_full_content == true -%}
-            {{ doc.content | newline_to_br |
-              replace:"<br />", " " |
-              replace:"</p>", " " |
-              replace:"</h1>", " " |
-              replace:"</h2>", " " |
-              replace:"</h3>", " " |
-              replace:"</h4>", " " |
-              replace:"</h5>", " " |
-              replace:"</h6>", " "|
-              split:"{"|first|
-            strip_html | strip_newlines | strip | jsonify }},
-          {%- else -%}
-            {{ doc.content | newline_to_br |
-              replace:"<br />", " " |
-              replace:"</p>", " " |
-              replace:"</h1>", " " |
-              replace:"</h2>", " " |
-              replace:"</h3>", " " |
-              replace:"</h4>", " " |
-              replace:"</h5>", " " |
-              replace:"</h6>", " "|
-              split:"{"|first|
-            strip_html | strip_newlines | strip | truncatewords: 50 | jsonify }},
-          {%- endif -%}
+        "excerpt": {{ doc.excerpt | default: truncated_doc_text | jsonify }},
+        "fulltext": {{ doc_text | jsonify }},
         "categories": {{ doc.categories | jsonify }},
         "tags": {{ doc.tags | jsonify }},
         "url": {{ doc.url | absolute_url | jsonify }},

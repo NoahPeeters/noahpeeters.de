@@ -1,9 +1,10 @@
 ---
 title: "Publications"
+excerpt: My publication
 permalink: /publications/
+header:
+  teaser: /assets/images/my-awesome-post-teaser.jpg
 ---
-
-Here you can find the papers I published during university.
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}

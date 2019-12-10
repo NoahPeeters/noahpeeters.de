@@ -48,4 +48,14 @@
     h2 {
         font-weight: normal;
     }
+
+    img.emoji {
+        display: inline;
+        transform: scale(0.75);
+        margin: -1pt;
+    }
+
+    .print-profile a:after {
+        content: none;
+    }
 }
