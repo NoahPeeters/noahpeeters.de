@@ -6,6 +6,8 @@ redirect_from:
   - /blog/
 ---
 
+In this blog, I might irregularly post stuff.
+
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
