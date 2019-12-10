@@ -140,7 +140,7 @@ defaults:
 # Exclude & Exclude from processing.
 include:
   - _pages
-  - _well-known
+  - _static
 exclude:
   - Gemfile
   - Gemfile.lock

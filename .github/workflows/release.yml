@@ -11,23 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - uses: actions/checkout@v1
+     - name: Checkout repository
+       uses: actions/checkout@v1
      - name: Set up Ruby 2.6
        uses: actions/setup-ruby@v1
        with:
          ruby-version: 2.6.x
-     - name: Publish to gh-pages
-       run: |
-         bundle install
-         bundle exec jekyll build
-         git checkout gh-pages
-         rm -r `ls | grep -v "_site"`
-         mv _site/* .
-         rm -r _site
-     - uses: stefanzweifel/git-auto-commit-action@v2.4.0
-       with:
-         commit_message: Update website
-         branch: 'gh-pages'
-         file_pattern: .
+     - name: Install dependencies
+       run: bundle install
+     - name: Build website
+       run: bundle exec jekyll build
+     - name: Deploy
+       uses: peaceiris/actions-gh-pages@v2
        env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+         PUBLISH_BRANCH: gh-pages
+         PUBLISH_DIR: ./_site
+       with:
+         emptyCommits: false
