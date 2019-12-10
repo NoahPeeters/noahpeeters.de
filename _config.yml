@@ -20,6 +20,7 @@ social:
 author:
   name: "Noah N. Peeters"
   avatar: "/assets/images/profile.jp2"
+  avatarfull: "/assets/images/profile_full.jpg"
   bio: "CS Student and iOS Developer"
   location: Geesthacht, Germany
   email: "noah@noahpeeters.de"

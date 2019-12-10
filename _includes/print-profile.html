@@ -17,12 +17,13 @@
     </div>
     <div class="print-profile-column-picture">
         {% assign author = site.author %}
-        {% if author.avatar %}
+        {% assign avatar = author.avatarfull | default: author.avatar %}
+        {% if avatar %}
             <div class="author__avatar">
-            {% if author.avatar contains "://" %}
-                {% assign author_src = author.avatar %}
+            {% if avatar contains "://" %}
+                {% assign author_src = avatar %}
             {% else %}
-                {% assign author_src = author.avatar | relative_url %}
+                {% assign author_src = avatar | relative_url %}
             {% endif %}
 
             {% if author.home %}
