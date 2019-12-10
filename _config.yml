@@ -140,7 +140,6 @@ defaults:
 # Exclude & Exclude from processing.
 include:
   - _pages
-  - _sass
   - _well-known
 exclude:
   - Gemfile
