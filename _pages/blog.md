@@ -1,10 +1,7 @@
 ---
-permalink: /year-archive/
+permalink: /blog/
 excerpt: My blog
 title: "Blog posts"
-redirect_from:
-  - /wordpress/blog-posts/
-  - /blog/
 ---
 
 In this blog, I might irregularly post stuff.
