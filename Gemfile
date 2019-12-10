@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'minimal-mistakes-jekyll', '~> 4.17'
   gem 'github-pages', '~> 203'
   gem "jekyll-feed", "~> 0.13"
   gem "jekyll-include-cache", "~> 0.2.0"

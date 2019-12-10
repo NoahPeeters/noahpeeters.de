@@ -45,7 +45,7 @@ analytics:
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.17.2"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint"
 
 search: true
