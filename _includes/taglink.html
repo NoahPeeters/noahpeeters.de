@@ -1,1 +1,3 @@
-<a href="/tags/#{{ tag | slugify }}">#{{ tag }}</a>
+{%- assign tag = tag | default: include.tag -%}
+<a {% if include.print-hidden %}class="print-hidden"{% endif %} href="/tags/#{{ tag | slugify }}">#{{ tag }}</a>
+{%- comment -%}{%- endcomment -%}

@@ -1,6 +1,5 @@
 ---
 title: Various Tutorings
-collection: teaching
 type: Tutoring
 venue: Otto-Hahn-Gymnasium Geesthacht
 date: 2015-08-01

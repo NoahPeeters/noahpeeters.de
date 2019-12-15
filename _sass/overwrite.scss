@@ -19,7 +19,7 @@ body {
     font-size: 1em;
 }
 
-a.no-stying {
+a.no-styling {
     color: $text-color;
 }
 
@@ -30,13 +30,26 @@ a.no-stying {
     100% {
       opacity: 1;
     }
-  }
+}
 
-  @keyframes intro {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+@keyframes intro {
+  0% {
+    opacity: 1;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+p.page__meta {
+  margin: 0;
+}
+
+p.page__header_spacing {
+  height: 1.5em;
+  float: left;
+}
+
+footer.page__meta {
+  margin-top: 0px;
+}

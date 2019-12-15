@@ -1,6 +1,5 @@
 ---
 title: Tutorial Discrete Mathematics 1
-collection: teaching
 type: Tutorial undergraduate course
 venue: Nordakademie
 date: 2019-01-01

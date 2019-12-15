@@ -103,7 +103,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: blog-single
+      layout: single
       author_profile: true
       read_time: true
       comments: true
@@ -114,7 +114,7 @@ defaults:
       path: ""
       type: teaching
     values:
-      layout: teaching-single
+      layout: single
       author_profile: true
       read_time: true
       share: true
@@ -124,7 +124,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: publication-single
+      layout: single
       author_profile: true
       read_time: true
       share: true
@@ -134,7 +134,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: portfolio-single
+      layout: single
       author_profile: true
       read_time: true
       share: true
@@ -144,7 +144,7 @@ defaults:
       path: ""
       type: news
     values:
-      layout: news-single
+      layout: single
       author_profile: true
       read_time: true
       share: true

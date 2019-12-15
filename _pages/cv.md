@@ -11,12 +11,12 @@ redirect_from: [/resume]
 Education
 --------
 * **Primary School**, _Silberbergschule_, August 2005 to July 2009
-* **Abitur**, _Otto-Hahn-Gymnasium Geesthacht_, August 2009 to June 2017
-* **B.S. in Applied Computer Science**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to March 2021 (expected)
+* **Abitur**, _Otto-Hahn-Gymnasium Geesthacht_, August 2009 to June 2017 {% include taglist-cv.html tags='OHG' %}
+* **B.S. in Applied Computer Science**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to March 2021 (expected) {% include taglist-cv.html tags='Nordakademie' %}
 
 Scholarships
 --------
-* **WWDC19 Scholarship**, _Apple Inc._, June 2019
+* **WWDC19 Scholarship**, _Apple Inc._, June 2019 {% include taglist-cv.html tags='WWDC2019' %}
 * **Intercultural Communication Summer Institute**, _Fulbright_, July 2019
 
 Work experience
@@ -50,8 +50,8 @@ Languages
 Service and leadership
 --------
 * JAV (Youth and apprentice representation) for freenet AG @ Hamburg since November 2019
-* Board member of the student organisation "Studentengemeinschaft Nordakademie e.V." since February 2018
+* Board member of the student organisation "Studentengemeinschaft Nordakademie e.V." since February 2018 {% include taglist-cv.html tags='Nordakademie' %}
 
 Memberships
 --------
-* **Fulbright Alumni e.V.**, *The German Fulbright Alumni Association*
+* **Fulbright Alumni e.V.**, *The German Fulbright Alumni Association* {% include taglist-cv.html tags='Fulbright' %}
