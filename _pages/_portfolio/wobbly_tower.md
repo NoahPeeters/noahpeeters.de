@@ -1,8 +1,9 @@
 ---
-title: "Wobbly Tower"
-excerpt: "Build a tower using tetrominos (the shapes from tetris)"
+title: Wobbly Tower
+excerpt: Build a tower using tetrominos (the shapes from tetris)
 last_modified_at: 2019-12-10
 collection: portfolio
+tags: [AppStore]
 ---
 
 ![Logo](/assets/images/wobbly_tower_logo.png)

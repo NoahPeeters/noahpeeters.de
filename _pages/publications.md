@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: Publications
 excerpt: My publication
 permalink: /publications/
 header:

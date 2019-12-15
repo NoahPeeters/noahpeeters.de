@@ -3,20 +3,22 @@ layout: single
 ---
 
 {% if page.date %}
-    <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time><br/>
+    <strong><i class="fa fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time><br/>
 {% endif %}
 
 {% if page.citation %}
     <strong><i class="fa fa-fw fa-bookmark" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].citation_label | default: "Citation:" }}</strong> {{ page.citation }}<br/>
 {% endif %}
 
-{% if page.paperlanguage %}
-    <strong><i class="fa fa-fw fa-language" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].language_label | default: "Language:" }}</strong> {{ page.paperlanguage }}<br/>
+{% if page.language %}
+    <strong><i class="fa fa-fw fa-language" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].language_label | default: "Language:" }}</strong> {{ page.language }}<br/>
 {% endif %}
 
-{% if page.paperurl %}
-    <a class="no-stying" href={{site.url}}{{page.paperurl}}><strong><i class="fa fa-fw fa-file-download" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].download_label | default: "Download" }}</strong></a><br/>
+{% if page.associated_url %}
+    <a class="no-stying" href={{site.url}}{{page.associated_url}}><strong><i class="fa fa-fw fa-file-download" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].download_label | default: "Download" }}</strong></a><br/>
 {% endif %}
+
+{% include taglist.html %}
 
 <br/>
 

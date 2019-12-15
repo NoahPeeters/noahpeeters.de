@@ -1,8 +1,9 @@
 ---
-title: "FidSpeed"
-excerpt: "iOS app to measure the speed of fidget spinners"
+title: FidSpeed
+excerpt: iOS app to measure the speed of fidget spinners
 last_modified_at: 2019-12-10
 collection: portfolio
+tags: [AppStore]
 ---
 
 ![Logo](/assets/images/fidspeed_logo.png)

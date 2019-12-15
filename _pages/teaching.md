@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: Teaching
 excerpt: My teaching experiences
 permalink: /teaching/
 ---

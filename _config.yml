@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My personal website about me and my projects.
 baseurl: "/"
 url: "https://www.noahpeeters.de"
-breadcrumbs: true
+breadcrumbs: false
 
 twitter:
   username: noah_peeters
@@ -85,6 +85,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -100,7 +103,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: blog-single
       author_profile: true
       read_time: true
       comments: true
@@ -111,7 +114,7 @@ defaults:
       path: ""
       type: teaching
     values:
-      layout: single
+      layout: teaching-single
       author_profile: true
       read_time: true
       share: true
@@ -131,7 +134,17 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: portfolio-single
+      author_profile: true
+      read_time: true
+      share: true
+      comment: true
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news-single
       author_profile: true
       read_time: true
       share: true

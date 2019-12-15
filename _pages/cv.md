@@ -1,9 +1,8 @@
 ---
-title: "CV"
+title: CV
 permalink: /cv/
 excerpt: My CV
-redirect_from:
-  - /resume
+redirect_from: [/resume]
 ---
 {% include print-profile.html %}
 
