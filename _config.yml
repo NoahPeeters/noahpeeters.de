@@ -71,6 +71,21 @@ compress_html:
   ignore:
     envs: development
 
+feed:
+  path: /blog/feed.xml
+  collections:
+    news:
+      path: /news/feed.xml
+
+atom_feed:
+  path: /blog/feed.xml
+
+footer:
+  links:
+    - label: "News Feed"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/news/feed.xml"
+
 # Collections
 collections:
   posts:
