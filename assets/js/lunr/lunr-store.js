@@ -52,7 +52,7 @@ var store = [
         "categories": null,
         "tags": null,
         "url": "https://www.noahpeeters.de/publications/",
-        "teaser":"https://www.noahpeeters.de/assets/images/my-awesome-post-teaser.jpg"},
+        "teaser":null},
 
       {
         "title": "Tags",
