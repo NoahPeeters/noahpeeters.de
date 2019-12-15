@@ -84,7 +84,7 @@ var store = [
       {
         "title": "OHG kämpft um den Finaleinzug",
         "excerpt": "Article about my participation in the \"Software Challenge\".",
-        "fulltext": "",
+        "fulltext": "This article was created after an interview with me and my two team members Til Blechschmidt and Max Zager. Sadly, we did not made it into the finals. Nevertheless, I got a scholarship for studying computer science at the Christian-Albrechts-Universität (CAU) in Kiel.",
         "categories": [],
         "tags": ["SoftwareChallange","OHG"],
         "url": "https://www.noahpeeters.de/news/ohg/software-challenge/bergedorfer-zeitung/",
@@ -272,8 +272,8 @@ var store = [
 
       {
         "title": "Tutorial Discrete Mathematics 1",
-        "excerpt": "<p>During my third semester of my bachelor’s degree, I was the instructor of the tutorial for “Discrete Mathematics 1”.</p>\n",
-        "fulltext": "During my third semester of my bachelor’s degree, I was the instructor of the tutorial for “Discrete Mathematics 1”.",
+        "excerpt": "<p>During my third semester of my bachelor’s degree, I was the instructor of the tutorial for I154 “Discrete Mathematics 1”.</p>\n",
+        "fulltext": "During my third semester of my bachelor’s degree, I was the instructor of the tutorial for I154 “Discrete Mathematics 1”.   The lecture covered the following topics:      Foundations            Set theory       Propositional and predicate logic       Simple proof techniques       Mathematical induction           Propositional calculus and boolean algebra            Logical connective       Propositions       Equivalence of propositions       Boolean functions       Canonical forms of boolean functions           Combinatorial circuit            Implementation of boolean functions       Simplification of boolean functions",
         "categories": [],
         "tags": ["Nordakademie"],
         "url": "https://www.noahpeeters.de/teaching/nordakademie/tutorial-dm1/",
