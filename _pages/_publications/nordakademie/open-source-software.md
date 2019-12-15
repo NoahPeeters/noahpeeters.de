@@ -6,7 +6,7 @@ last_modified_at: 2019-12-10
 tags: [Nordakademie]
 download_url: '/assets/files/blechschmidt_til-peeters_noah-oss.pdf'
 language: German
-citation: 'Til Blechschmidt, Noah Peeters (2018). &quot;Open Source Software - Wie nehmen Endanwender Open Source Software wahr?&quot;'
+citation-key: oss-perception
 ---
 
 {{ page.excerpt }}

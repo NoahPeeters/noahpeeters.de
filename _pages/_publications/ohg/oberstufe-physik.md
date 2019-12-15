@@ -6,7 +6,7 @@ last_modified_at: 2019-12-10
 tags: [OHG]
 download_url: '/assets/files/peeters_noah-oberstufe_physik.pdf'
 language: German
-citation: 'Noah Peeters (2017). &quot;Zusammenfassung Oberstufe Physik&quot;'
+citation-key: oberstufe-physics
 ---
 
 {{ page.excerpt }}

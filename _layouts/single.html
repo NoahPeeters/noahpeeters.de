@@ -50,8 +50,8 @@ layout: default
             <p class="page__meta"><strong><i class="far fa-save" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].download_url_label | default: "Download:" }}</strong> <a class="no-styling" href={{site.url}}{{page.download_url}}>{{page.download_url | split: '.' | last | upcase }}</a></p>
             {% assign include_header_spacing = true %}
           {% endif %}
-          {% if page.citation %}
-            <p class="page__meta"><strong><i class="far fa-bookmark" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].citation_label | default: "Citation:" }}</strong> {{ page.citation }}</p>
+          {% if page.citation-key %}
+            <p class="page__meta"><strong><i class="far fa-bookmark" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].citation_label | default: "Citation:" }}</strong> {% include full-cite.html citation-key=page.citation-key %}</p>
             {% assign include_header_spacing = true %}
           {% endif %}
           {% if page.tags %}

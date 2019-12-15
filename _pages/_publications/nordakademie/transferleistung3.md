@@ -6,7 +6,7 @@ last_modified_at: 2019-12-10
 tags: [Transferleistung, Nordakademie]
 download_url: '/assets/files/peeters_noah-transferleistung3.pdf'
 language: 'English'
-citation: 'Noah Peeters (2019). &quot;Google Analytics for mobile apps shutdown: Analysis of the implication of switching to Google Firebase.&quot;'
+citation-key: google-analytics-mobile-shutdown
 ---
 
 {{ page.excerpt }}

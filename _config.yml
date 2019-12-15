@@ -86,6 +86,9 @@ footer:
       icon: "fas fa-fw fa-rss-square"
       url: "/news/feed.xml"
 
+scholar:
+  style: ieee
+
 # Collections
 collections:
   posts:

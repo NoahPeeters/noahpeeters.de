@@ -6,7 +6,7 @@ last_modified_at: 2019-12-10
 tags: [Transferleistung, Nordakademie]
 download_url: '/assets/files/peeters_noah-transferleistung2.pdf'
 language: German
-citation: 'Noah Peeters (2018). &quot;Wie kann CodePush für die Verbreitung von React Native Apps eingesetzt werden?&quot;'
+citation-key: codepush-react-native-usage
 ---
 
 {{ page.excerpt }}
