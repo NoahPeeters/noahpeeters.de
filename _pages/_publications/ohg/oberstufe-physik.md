@@ -5,6 +5,7 @@ date: 2017-08-01
 last_modified_at: 2019-12-10
 tags: [OHG]
 download_url: '/assets/files/peeters_noah-oberstufe_physik.pdf'
+associated_url: https://github.com/NoahPeeters/Abiturvorbereitung-Physik
 language: German
 citation-key: oberstufe-physics
 ---
