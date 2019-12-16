@@ -55,15 +55,6 @@ var store = [
         "teaser":null},
 
       {
-        "title": "Tags",
-        "excerpt": "Content sorted by tags",
-        "fulltext": "",
-        "categories": null,
-        "tags": null,
-        "url": "https://www.noahpeeters.de/tags/",
-        "teaser":null},
-
-      {
         "title": "Teaching",
         "excerpt": "My teaching experiences",
         "fulltext": "",
