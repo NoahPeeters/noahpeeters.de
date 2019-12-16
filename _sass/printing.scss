@@ -55,8 +55,8 @@
         margin: -1pt;
     }
 
-    .print-profile a:after {
-        content: none;
+    a:after {
+        content: none!important;
     }
 }
 

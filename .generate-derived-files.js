@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('http://localhost:8000/cv');
+  await page.goto('http://localhost:8080/cv');
   await page.pdf({
     path: 'assets/files/cv.pdf',
     format: 'A4',
