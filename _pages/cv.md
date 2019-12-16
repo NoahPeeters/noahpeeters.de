@@ -12,6 +12,7 @@ Education
 --------
 * **Primary School**, _Silberbergschule_, August 2005 to July 2009
 * **Abitur**, _Otto-Hahn-Gymnasium Geesthacht_, August 2009 to June 2017 {% include taglist-cv.html tags='OHG' %}
+* **Semester Abroad**, _Riga Technical University_, September 2019 to December 2019
 * **B.S. in Applied Computer Science**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to March 2021 (expected) {% include taglist-cv.html tags='Nordakademie' %}
 
 Scholarships
