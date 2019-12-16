@@ -1,0 +1,15 @@
+---
+layout: single
+---
+
+{% include all-pages %}
+
+{% assign tag = page.title %}
+
+{{ content }}
+
+{% for post in pages %}
+    {% if post.tags contains tag %}
+    {% include archive-single.html %}
+    {% endif %}
+{% endfor %}

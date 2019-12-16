@@ -167,6 +167,14 @@ defaults:
       read_time: true
       share: true
       comment: true
+  # tags
+  - scope:
+      path: tags
+    values:
+      layout: tagpage
+      author_profile: true
+      search: false
+      title-prefix: 'Tag: '
 
 # Exclude & Exclude from processing.
 include:

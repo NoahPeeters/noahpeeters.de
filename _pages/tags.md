@@ -2,15 +2,10 @@
 permalink: /tags/
 excerpt: Content sorted by tags
 title: Tags
+search: false
 ---
 
-{% assign pages = site.pages %}
-{% assign pages = pages | concat: site.posts %}
-{% assign pages = pages | concat: site.teaching %}
-{% assign pages = pages | concat: site.publications %}
-{% assign pages = pages | concat: site.portfolio %}
-{% assign pages = pages | concat: site.news %}
-
+{% include all-pages %}
 {% include group-by-array collection=pages field="tags" %}
 
 {% for tag in group_names %}
