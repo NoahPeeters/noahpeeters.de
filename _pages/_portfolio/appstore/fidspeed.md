@@ -2,6 +2,7 @@
 title: FidSpeed
 excerpt: iOS app to measure the speed of fidget spinners
 last_modified_at: 2019-12-10
+associated_url: https://apps.apple.com/us/app/fidspeed-measure-and-share-your-speed/id1249421434
 tags: [AppStore]
 ---
 
