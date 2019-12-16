@@ -12,7 +12,7 @@
         text-decoration: none;
     }
 
-    .breadcrumbs, .print-hidden, a.header-link {
+    .breadcrumbs, a.header-link {
         display: none;
     }
 
@@ -58,4 +58,9 @@
     .print-profile a:after {
         content: none;
     }
+}
+
+.force-page-break {
+    page-break-after: always!important;
+    height: 0;
 }

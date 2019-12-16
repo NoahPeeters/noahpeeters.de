@@ -47,7 +47,11 @@ p.page__meta {
 
 p.page__header_spacing {
   height: 1.5em;
-  float: left;
+  margin: 0;
+}
+
+.page .page__inner-wrap .page__meta {
+  float: none;
 }
 
 footer.page__meta {
