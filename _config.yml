@@ -38,11 +38,6 @@ author:
       icon: "fas fa-fw fa-key"
       url: "/assets/files/Noah%20Noel%20Peeters%20(9E84A851)%20–%20Public.asc"
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-154187903-1"
-
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
