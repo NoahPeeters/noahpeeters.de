@@ -83,6 +83,9 @@ footer:
     - label: "Imprint"
       icon: "fas fa-fw fa-gavel"
       url: "/imprint/"
+    - label: "Privacy Policy"
+      icon: "fas fa-fw fa-user-shield"
+      url: "/privacy/"
 
 scholar:
   style: ieee
