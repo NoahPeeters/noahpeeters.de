@@ -80,6 +80,9 @@ footer:
     - label: "News Feed"
       icon: "fas fa-fw fa-rss-square"
       url: "/news/feed.xml"
+    - label: "Imprint"
+      icon: "fas fa-fw fa-gavel"
+      url: "/imprint/"
 
 scholar:
   style: ieee
