@@ -176,6 +176,10 @@ defaults:
       author_profile: true
       search: false
       title-prefix: 'Tag: '
+  - scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
 
 # Exclude & Exclude from processing.
 include:
