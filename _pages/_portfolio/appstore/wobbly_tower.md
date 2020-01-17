@@ -1,6 +1,7 @@
 ---
 title: Wobbly Tower
 excerpt: Build a tower using tetrominos (the shapes from tetris)
+date: 2019-12-10
 last_modified_at: 2019-12-10
 associated_url: https://apps.apple.com/us/app/wobbly-tower/id1272172691
 tags: [AppStore]
