@@ -9,4 +9,6 @@ language: German
 citation-key: ios-uitests
 ---
 
-{{ page.excerpt }}
+In this paper, I analyzed and compared the three different testing methods manual testing, unit testing and ui testing to identify the potential benefits of creating ui tests for iOS apps. I concluded that it can be useful to have ui tests to support the other testing methods for some apps. But some apps do not profit that much from ui tests so that it is important to further analyze an app before deciding to create ui tests or not.
+
+I created this paper for an assignment during my Bachelor's degree.

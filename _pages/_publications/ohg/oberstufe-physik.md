@@ -16,8 +16,8 @@ citation-key: oberstufe-physics
 
 The goal of the paper is to give students an overview of all topics. This allows them to practice for the Abitur using this paper.
 
-The paper does not have the goal to teach new students the topic and I discourage anyone from trying as the explanations are not broad enough to
+The paper does not have the goal to teach new students the topic and I discourage anyone from trying so as the explanations are not broad enough to completely understand the topic.
 
 ## Paper structure
 
-The paper uses the same structure as the class in school. The paper contains explanations for each topic.
+The paper uses the same structure as my class in school. The paper contains explanations for each topic.
