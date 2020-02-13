@@ -29,8 +29,8 @@ var store = [
 
       {
         "title": "Noah Peeters",
-        "excerpt": "Welcome to the front page of my website.",
-        "fulltext": "Welcome to the front page of my website.",
+        "excerpt": "Hello there :wave: My name is Noah Peeters and I created this website because I had the domain and I...",
+        "fulltext": "Hello there :wave: My name is Noah Peeters and I created this website because I had the domain and I thought it might be funny to have one. You can find the source code on my GitHub account in case you’re interested in it.   I’ll try to maintain a single point of contact for my digital life here.",
         "categories": null,
         "tags": null,
         "url": "https://www.noahpeeters.de/",
@@ -228,7 +228,7 @@ var store = [
       {
         "title": "Zusammenfassung Oberstufe Physik",
         "excerpt": "In this paper, I summarized all topics we discussed in school in physics.",
-        "fulltext": "In this paper, I summarized all topics we discussed in school in physics.   Goal   The goal of the paper is to give students an overview of all topics. This allows them to practice for the Abitur using this paper.   The paper does not have the goal to teach new students the topic and I discourage anyone from trying as the explanations are not broad enough to   Paper structure   The paper uses the same structure as the class in school. The paper contains explanations for each topic.",
+        "fulltext": "In this paper, I summarized all topics we discussed in school in physics.   Goal   The goal of the paper is to give students an overview of all topics. This allows them to practice for the Abitur using this paper.   The paper does not have the goal to teach new students the topic and I discourage anyone from trying so as the explanations are not broad enough to completely understand the topic.   Paper structure   The paper uses the same structure as my class in school. The paper contains explanations for each topic.",
         "categories": [],
         "tags": ["OHG"],
         "url": "https://www.noahpeeters.de/publications/ohg/oberstufe-physik/",
@@ -246,7 +246,7 @@ var store = [
       {
         "title": "Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?",
         "excerpt": "This is my first Transferleistung.",
-        "fulltext": "This is my first Transferleistung.",
+        "fulltext": "In this paper, I analyzed and compared the three different testing methods manual testing, unit testing and ui testing to identify the potential benefits of creating ui tests for iOS apps. I concluded that it can be useful to have ui tests to support the other testing methods for some apps. But some apps do not profit that much from ui tests so that it is important to further analyze an app before deciding to create ui tests or not.   I created this paper for an assignment during my Bachelor’s degree.",
         "categories": [],
         "tags": ["Transferleistung","Nordakademie"],
         "url": "https://www.noahpeeters.de/publications/nordakademie/transferleistung1/",
