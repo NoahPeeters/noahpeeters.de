@@ -55,7 +55,9 @@ Service and leadership
 --------
 * JAV (Youth and apprentice representation) for freenet AG @ Hamburg since November 2019
 * Board member of the student organisation "Studentengemeinschaft Nordakademie e.V." since February 2019 {% include taglist-cv.html tags='Nordakademie' %}
-* Leadership of the seminar team since January 2020 {% include taglist-cv.html tags='Nordakademie' %}
+* Leadership of the Nordakademie seminar team since January 2020 {% include taglist-cv.html tags='Nordakademie' %}
+* Chairman of the "Die PARTEI Hochschulgruppe Nordakademie" since February 2020 {% include taglist-cv.html tags='Nordakademie' %}
+* Member of the Nordakademie student parliament, March 2020 to March 2021 {% include taglist-cv.html tags='Nordakademie' %}
 
 Memberships
 --------
