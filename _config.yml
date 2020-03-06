@@ -31,6 +31,12 @@ author:
   twitter: "@noah_peeters"
   xing: "Noah_Peeters"
   links:
+    - label: "WhatsApp"
+      icon: "fab fa-fw fa-whatsapp"
+      url: "https://wa.me/491718952156"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/NoahPeeters"
     - label: "Apple Music"
       icon: "fas fa-fw fa-music"
       url: "https://music.apple.com/profile/noahpeeters"
