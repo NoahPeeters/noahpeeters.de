@@ -199,6 +199,15 @@ var store = [
         "teaser":null},
 
       {
+        "title": "Nordakademie StuPa 2020 first meeting",
+        "excerpt": "Instagram post about the first meeting of the Nordakademie StuPa 2020.",
+        "fulltext": "In 2020, I was elected to be part of the StuPa for the following year. We had our first meeting on March 6th to get to know each other and decide on the distribution of tasks.",
+        "categories": [],
+        "tags": ["Nordakademie"],
+        "url": "https://www.noahpeeters.de/news/nordakademie/stupa_first_meeting/",
+        "teaser":null},
+
+      {
         "title": "FidSpeed",
         "excerpt": "iOS app to measure the speed of fidget spinners",
         "fulltext": "FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.      How does it work?   FidSpeed uses the iPhones slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.",
