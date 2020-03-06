@@ -7,7 +7,7 @@ download_url: '/assets/files/cv.pdf'
 ---
 {% include print-profile.html %}
 
-Computer science student from Germany. Currently working as an iOS Developer. Interested in quantum computing.
+Computer science student from Germany. Currently working as an iOS Developer. Interested in sustainability.
 
 Education
 --------
