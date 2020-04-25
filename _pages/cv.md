@@ -35,7 +35,7 @@ Teaching
 
 {% include pagebreak %}
 
-Work experience
+Work Experience
 --------
 * **Internship**, _Computacenter AG & Co oHG_, March 2014
 * **Internship**, _expert AG_, November 2015
@@ -51,7 +51,7 @@ Languages
 * :us: **English** (oral and written fluency)
 * :fr: **French** (DELF A2)
 
-Service and leadership
+Service and Leadership
 --------
 * JAV (Youth and apprentice representation) for freenet AG @ Hamburg since November 2019
 * Board member of the student organisation "Studentengemeinschaft Nordakademie e.V.", February 2019 to February 2021 {% include taglist-cv.html tags='Nordakademie' %}
