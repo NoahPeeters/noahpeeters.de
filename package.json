@@ -1,11 +1,11 @@
 {
   "name": "noahpeeters.de",
   "version": "1.0.0",
-  "description": "",
+  "description": "Source code of my website @ noahpeeters.de",
   "main": ".generate-derived-files.js",
   "dependencies": {
-    "puppeteer": "^2.0.0",
-    "puppeteer-core": "^2.0.0"
+    "puppeteer": "^2.1.1",
+    "puppeteer-core": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
