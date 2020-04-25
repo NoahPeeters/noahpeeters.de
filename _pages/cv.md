@@ -62,3 +62,4 @@ Service and leadership
 Memberships
 --------
 * **Fulbright Alumni e.V.**, *The German Fulbright Alumni Association* {% include taglist-cv.html tags='Fulbright' %}
+* **Die PARTEI**, *Die Partei für Arbeit, Rechsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative*
