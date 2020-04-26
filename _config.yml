@@ -31,6 +31,9 @@ author:
   twitter: "@noah_peeters"
   xing: "Noah_Peeters"
   links:
+    - label: "Contact Form"
+      icon: "far fa-fw fa-comment-alt"
+      url: "/contact"
     - label: "WhatsApp"
       icon: "fab fa-fw fa-whatsapp"
       url: "https://wa.me/491718952156"
