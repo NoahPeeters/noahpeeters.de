@@ -15,7 +15,7 @@ var store = [
         "fulltext": "Here you can contact me. To contact me anonymously, just leave the name and email empty.   By using the contact form, you agree with my privacy policy.",
         "categories": null,
         "tags": null,
-        "url": "https://www.noahpeeters.de/contact",
+        "url": "https://www.noahpeeters.de/contact/",
         "teaser":null},
 
       {
@@ -24,7 +24,7 @@ var store = [
         "fulltext": "Thank you for your contact request.",
         "categories": null,
         "tags": null,
-        "url": "https://www.noahpeeters.de/contact_success",
+        "url": "https://www.noahpeeters.de/contact/success/",
         "teaser":null},
 
       {
