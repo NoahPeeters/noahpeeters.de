@@ -57,7 +57,7 @@ Service and Leadership
 * Board member of the student organisation "Studentengemeinschaft Nordakademie e.V.", February 2019 to February 2021 {% include taglist-cv.html tags='Nordakademie' %}
 * Leadership of the Nordakademie seminar team, January 2020 to February 2021 {% include taglist-cv.html tags='Nordakademie' %}
 * Chairman of the "Die PARTEI Hochschulgruppe Nordakademie", February 2020 to February 2021 {% include taglist-cv.html tags='Nordakademie' %}
-* Member of the Nordakademie student parliament, March 2020 to March 2021 {% include taglist-cv.html tags='Nordakademie' %}
+* Member of the Nordakademie student parliament for research and sustainability, March 2020 to March 2021 {% include taglist-cv.html tags='Nordakademie' %}
 
 Memberships
 --------
