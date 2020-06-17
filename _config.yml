@@ -197,6 +197,9 @@ include:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - generate-derived-files.sh
+  - generate-derived-files.js
+  - LICENSE
 
 collections_dir: _pages
 
