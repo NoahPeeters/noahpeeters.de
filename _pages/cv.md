@@ -2,7 +2,7 @@
 title: CV
 permalink: /cv/
 excerpt: My CV
-redirect_from: [/resume]
+redirect_from: [/resume/]
 download_url: '/assets/files/cv.pdf'
 ---
 {% include print-profile.html %}
