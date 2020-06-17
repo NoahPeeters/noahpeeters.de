@@ -379,11 +379,15 @@
 
 <p>By using the contact form, you agree with my <a href="/privacy">privacy policy</a>.</p>
 
-<form action="https://getsimpleform.com/messages?form_api_token=0fac7f1fa5b6bfdb796070fc6d1ecc69" method="post">
-  <input type="hidden" name="redirect_to" value="https://www.noahpeeters.de/contact/success" />
-  <input type="text" name="name" placeholder="Name" />
-  <input type="text" name="email" placeholder="Email/Contact" />
-  <textarea name="message" placeholder="Message" style="height: 100px;"></textarea>
+<form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/xvowqojk" method="post">
+  <fieldset id="fs-frm-inputs">
+    <input type="name" name="name" placeholder="Name" />
+    <input type="email" name="email" placeholder="Email" />
+    <textarea name="message" placeholder="Message" style="height: 100px;" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="https://www.noahpeeters.de/contact/success" />
+  </fieldset>
   <input type="submit" value="Submit" />
 </form>
 
