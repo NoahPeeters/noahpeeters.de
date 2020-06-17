@@ -11,28 +11,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: Checkout repository
-       uses: actions/checkout@v1
-     - name: Set up Ruby 2.6
-       uses: actions/setup-ruby@v1
-       with:
-         ruby-version: 2.6.x
-     - name: Install dependencies
-       run: |
-         gem install bundler
-         bundle update --bundler
-         bundle config path vendor/bundle
-         bundle install --jobs 4 --retry 3
-         npm install
-     - name: Generate derived files
-       run: ./generate-derived-files.sh
-     - name: Build website
-       run: bundle exec jekyll build
-     - name: Deploy
-       uses: peaceiris/actions-gh-pages@v2
-       env:
-         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-         PUBLISH_BRANCH: gh-pages
-         PUBLISH_DIR: ./_site
-       with:
-         emptyCommits: false
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - name: Install Bundler
+        run: |
+          gem install bundler
+      - name: Bundler gems cache
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Install bundler dependencies
+        run: |
+          bundle config path vendor/bundle
+          bundle update --bundler
+          bundle install --jobs 4 --retry 3
+      - name: Install npm dependencies
+        run: npm install
+      - name: Generate derived files
+        run: ./generate-derived-files.sh
+      - name: Build website
+        run: bundle exec jekyll build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./_site
+        with:
+          emptyCommits: false
