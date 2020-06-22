@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: none
 ---
 
 {% assign docs = site.pages | where_exp:'doc','doc.search != false' | where_exp:'doc','doc.title != null' %}
