@@ -2,5 +2,5 @@
 {% assign pages = pages | concat: site.posts %}
 {% assign pages = pages | concat: site.teaching %}
 {% assign pages = pages | concat: site.publications %}
-{% assign pages = pages | concat: site.portfolio %}
+{% assign pages = pages | concat: site.projects %}
 {% assign pages = pages | concat: site.news %}

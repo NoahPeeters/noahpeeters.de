@@ -4,3 +4,4 @@ permalink: /contact/success/
 ---
 
 Thank you for your contact request.
+{: .notice--success}

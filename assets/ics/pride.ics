@@ -1,0 +1,188 @@
+---
+layout: ics
+---
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//noahpeeters.de//iCal Event Maker//Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:zero_discrimination_day@noahpeeters.de
+DTSTART;VALUE=DATE:20140301
+RRULE:FREQ=YEARLY;BYMONTH=03;BYMONTHDAY=01
+SUMMARY:🏳️‍🌈 Zero Discrimination Day
+URL:https://en.wikipedia.org/wiki/Zero_Discrimination_Day
+DESCRIPTION:#ZeroDiscrimination Day is observed to bring awareness that you can't get sick from interacting with people who have aids, that everybody should have access health care safely and live life fully with dignity. as per Michel Sidibé, UNAIDS Executive Director. The day is also used to bring attention to acceptance of non-straight fellow humans and not marginalise, discriminate or act cruelly against them, yet to instruct oneself, e.g. the gender continuum.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:international_transgender_day_of_visibility@noahpeeters.de
+DTSTART;VALUE=DATE:20090331
+RRULE:FREQ=YEARLY;BYMONTH=03;BYMONTHDAY=31
+SUMMARY:🏳️‍🌈 International Transgender Day of Visibility
+URL:https://en.wikipedia.org/wiki/International_Transgender_Day_of_Visibility
+DESCRIPTION:Celebrated to bring awareness to transgender people and their identities as well as recognize those who helped fight for rights for transgender people
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:lesbian_visibility_day@noahpeeters.de
+DTSTART;VALUE=DATE:20080426
+RRULE:FREQ=YEARLY;BYMONTH=04;BYMONTHDAY=26
+SUMMARY:🏳️‍🌈 Lesbian Visibility Day
+DESCRIPTION:Annual day to celebrate, recognize, and bring visibility to lesbians
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:international_day_against_homophobia_transphobia_and_biphobia@noahpeeters.de
+DTSTART;VALUE=DATE:20050517
+RRULE:FREQ=YEARLY;BYMONTH=05;BYMONTHDAY=17
+SUMMARY:🏳️‍🌈 International Day Against Homophobia, Transphobia and Biphobia
+URL:https://en.wikipedia.org/wiki/International_Day_Against_Homophobia,_Transphobia_and_Biphobia
+DESCRIPTION:The main purpose of the 17 May mobilizations is to raise awareness of violence, discrimination, abuse, and repression of LGBT communities worldwide.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:harvey_milk_day@noahpeeters.de
+DTSTART;VALUE=DATE:20100522
+RRULE:FREQ=YEARLY;BYMONTH=05;BYMONTHDAY=22
+SUMMARY:🏳️‍🌈 Harvey Milk Day
+URL:https://en.wikipedia.org/wiki/Harvey_Milk_Day
+DESCRIPTION:Celebrated to honor Harvey Milk, assassinated politician, on his birthday. It is celebrated officially in California, Milk's home state.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:pulse_night_of_remembrance@noahpeeters.de
+DTSTART;VALUE=DATE:20170612
+RRULE:FREQ=YEARLY;BYMONTH=06;BYMONTHDAY=12
+SUMMARY:🏳️‍🌈 Pulse Night of Remembrance
+URL:https://en.wikipedia.org/wiki/Orlando_nightclub_shooting
+DESCRIPTION:Annual day of US remembrance for the loss of 49 LGBT men and women in the Pulse Nightclub shooting in Orlando, FL
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:pansexual_and_panromantic_awareness_day@noahpeeters.de
+DTSTART;VALUE=DATE:20150524
+RRULE:FREQ=YEARLY;BYMONTH=05;BYMONTHDAY=24
+SUMMARY:🏳️‍🌈 Pansexual & Panromantic Awareness Day
+DESCRIPTION:Annual day to promote awareness of and celebrate pansexual & panromantic identities.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:international_non_binary_peoples_day@noahpeeters.de
+DTSTART;VALUE=DATE:20120714
+RRULE:FREQ=YEARLY;BYMONTH=07;BYMONTHDAY=14
+SUMMARY:🏳️‍🌈 International Non-Binary People's Day
+DESCRIPTION:Date chosen due to being between International Men's Day and International Women's Day.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:wear_it_purple_day@noahpeeters.de
+DTSTART;VALUE=DATE:19961027
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+SUMMARY:🏳️‍🌈 Wear it Purple Day
+URL:https://en.wikipedia.org/wiki/Wear_it_Purple_Day
+DESCRIPTION:Awareness day especially for young people, based in Australia.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:celebrate_bisexuality_day@noahpeeters.de
+DTSTART;VALUE=DATE:19990923
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=23
+SUMMARY:🏳️‍🌈 Celebrate Bisexuality Day
+URL:https://en.wikipedia.org/wiki/Celebrate_Bisexuality_Day
+DESCRIPTION:Also referred to as Bisexual Pride Day, CBD, Bisexual Pride, and Bi Visibility Day
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:international_lesbian_day@noahpeeters.de
+DTSTART;VALUE=DATE:19901008
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=08
+SUMMARY:🏳️‍🌈 International Lesbian Day
+URL:https://www.checkiday.com/7bc3ed3e2f471e91bc22313d3a6e569d/international-lesbian-day
+DESCRIPTION:Annual day which celebrates lesbian culture, mainly celebrated in New Zealand and Australia
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:spirit_day@noahpeeters.de
+DTSTART;VALUE=DATE:20101014
+RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=10;BYDAY=3TH
+SUMMARY:🏳️‍🌈 Spirit Day
+URL:https://en.wikipedia.org/wiki/Spirit_Day
+DESCRIPTION:Support for LGBTQ+ youth who are the victims of bullying, as well as to honor LGBTQ+ victims of bullying-related suicide.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:international_pronouns_day@noahpeeters.de
+DTSTART;VALUE=DATE:20181017
+RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=10;BYDAY=3WE
+SUMMARY:🏳️‍🌈 International Pronouns Day
+URL:https://en.wikipedia.org/wiki/International_Pronouns_Day
+DESCRIPTION:An annual event that seeks to make sharing, respecting and educating about personal pronouns commonplace
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:national_coming_out_day@noahpeeters.de
+DTSTART;VALUE=DATE:19881011
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=11
+SUMMARY:🏳️‍🌈 National Coming Out Day
+URL:https://en.wikipedia.org/wiki/National_Coming_Out_Day
+DESCRIPTION:National Coming Out Day (NCOD) is an annual LGBT awareness day observed on October 11, to support lesbian, gay, bisexual and transgender (LGBT) people (and sometimes other groups typically grouped within the LGBT community) to "coming out of the closet".
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:intersex_awareness_day@noahpeeters.de
+DTSTART;VALUE=DATE:19961026
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=26
+SUMMARY:🏳️‍🌈 Intersex Awareness Day
+URL:https://en.wikipedia.org/wiki/Intersex_Awareness_Day
+DESCRIPTION:Celebrated in October to commemorate the first intersex protest, which took place in Boston, MA
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:trans_parent_day@noahpeeters.de
+DTSTART;VALUE=DATE:20091107
+RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=11;BYDAY=1SU
+SUMMARY:🏳️‍🌈 Trans Parent Day
+URL:http://www.transparentday.org
+DESCRIPTION:A day that celebrates life and the love between transgender parents and their children, and between parents and their transgender children.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:transgender_day_of_remembrance@noahpeeters.de
+DTSTART;VALUE=DATE:19991120
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=20
+SUMMARY:🏳️‍🌈 Transgender Day of Remembrance
+URL:https://en.wikipedia.org/wiki/Transgender_Day_of_Remembrance
+DESCRIPTION:Day to memorialize those who have been murdered as a result of transphobia.
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+UID:world_aids_day@noahpeeters.de
+DTSTART;VALUE=DATE:19881201
+RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=01
+SUMMARY:🏳️‍🌈 World AIDS Day
+URL:https://en.wikipedia.org/wiki/World_AIDS_Day
+DESCRIPTION:Recognized in 1988 by the United Nations
+END:VEVENT
+
+END:VCALENDAR

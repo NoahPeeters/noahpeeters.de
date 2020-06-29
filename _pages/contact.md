@@ -3,9 +3,11 @@ title: Contact
 permalink: /contact/
 ---
 
-Here you can contact me. To contact me anonymously, just leave the name and email empty.
 
+Here you can contact me. To contact me anonymously, just leave the name and email empty.
+\\
 By using the contact form, you agree with my [privacy policy](/privacy).
+{: .notice--info}
 
 <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/xvowqojk" method="post">
   <fieldset id="fs-frm-inputs">
