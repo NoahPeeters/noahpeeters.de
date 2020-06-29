@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/All_5_free_tetrominoes.png
 ---
 
-![Logo](/assets/images/wobbly_tower_logo.png)
+![Logo](/assets/images/wobbly_tower_logo.png){: .align-left}
 
 Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different [tetrominos](https://en.wikipedia.org/wiki/Tetromino) and build a tower.
 

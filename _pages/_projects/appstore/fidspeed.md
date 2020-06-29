@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/person-holding-black-finger-spinner-776116.jpg
 ---
 
-![Logo](/assets/images/fidspeed_logo.png)
+![Logo](/assets/images/fidspeed_logo.png){: .align-left}
 
 FidSpeed is an iOS app to measure the speed of [Fidget Spinners](https://en.wikipedia.org/wiki/Fidget_spinner) which became very popular in 2017.
 
