@@ -3,7 +3,7 @@ title: 🏳️‍🌈 Pride Calendar
 excerpt: A calender of lots of event and celebration days for the LGBTQIA+ community.
 date: 2020-06-29
 last_modified_at: 2020-06-29
-associated_url: https://www.noahpeeters.de/assets/ics/pride.ics
+associated_url: webcal://www.noahpeeters.de/assets/ics/pride.ics
 tags: []
 header:
   teaser: /assets/images/512px-Gay_Pride_Flag.png
@@ -20,7 +20,7 @@ Importing the calendar is probably the easiest way to get started simply downloa
 
 ## Subscription (Recommended)
 
-The web address for the calendar subscription is [https://www.noahpeeters.de/assets/ics/pride.ics](https://www.noahpeeters.de/assets/ics/pride.ics).
+The web address for the calendar subscription is [webcal://www.noahpeeters.de/assets/ics/pride.ics](webcal://www.noahpeeters.de/assets/ics/pride.ics).
 
 Of course each calendar app has a slightly different UI to create a new subscription. Here is a list of some tutorials for some popular platforms/calendar apps so that you have no excuse for not subscribing:
  - [iCloud (Mac/iOS)](https://support.apple.com/en-us/HT202361)
