@@ -5,11 +5,15 @@ date: 2019-12-10
 last_modified_at: 2019-12-10
 associated_url: https://apps.apple.com/us/app/fidspeed-measure-and-share-your-speed/id1249421434
 tags: [AppStore]
+header:
+  teaser: /assets/images/person-holding-black-finger-spinner-776116.jpg
 ---
 
 ![Logo](/assets/images/fidspeed_logo.png)
 
 FidSpeed is an iOS app to measure the speed of [Fidget Spinners](https://en.wikipedia.org/wiki/Fidget_spinner) which became very popular in 2017.
+
+The free version of the app contains advertisement but is not available in all regions.
 
 [![Download on the AppStore](/assets/images/appstore_download_button.svg)](https://apps.apple.com/us/app/fidspeed-measure-and-share-your-speed/id1249421434)
 
