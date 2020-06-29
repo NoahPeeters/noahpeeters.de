@@ -219,20 +219,20 @@ var store = [
       {
         "title": "FidSpeed",
         "excerpt": "iOS app to measure the speed of fidget spinners",
-        "fulltext": "FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.      How does it work?   FidSpeed uses the iPhones slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.",
+        "fulltext": "FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.   The free version of the app contains advertisement but is not available in all regions.      How does it work?   FidSpeed uses the iPhones slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.",
         "categories": [],
         "tags": ["AppStore"],
         "url": "https://www.noahpeeters.de/projects/appstore/fidspeed/",
-        "teaser":null},
+        "teaser":"https://www.noahpeeters.de/assets/images/person-holding-black-finger-spinner-776116.jpg"},
 
       {
         "title": "Wobbly Tower",
         "excerpt": "Build a tower using tetrominos (the shapes from tetris)",
-        "fulltext": "Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different tetrominos and build a tower.",
+        "fulltext": "Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different tetrominos and build a tower.      The teaser image on the project overview was obtained from and created by Anypodetos @ Wikipedia.",
         "categories": [],
         "tags": ["AppStore"],
         "url": "https://www.noahpeeters.de/projects/appstore/wobbly_tower/",
-        "teaser":null},
+        "teaser":"https://www.noahpeeters.de/assets/images/All_5_free_tetrominoes.png"},
 
       {
         "title": "🏳️‍🌈 Pride Calendar",
