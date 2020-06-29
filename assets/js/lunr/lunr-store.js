@@ -3,7 +3,7 @@ var store = [
       {
         "title": "Blog posts",
         "excerpt": "My blog",
-        "fulltext": "In this blog, I might irregularly post stuff.   2019                                Hello World                                  less than 1 minute read             I just created this website. The main goal is to present me and my projects on the internet.",
+        "fulltext": "In this blog, I might irregularly post stuff.",
         "categories": null,
         "tags": null,
         "url": "https://www.noahpeeters.de/blog/",
@@ -11,7 +11,7 @@ var store = [
 
       {
         "title": "Contact",
-        "excerpt": "<p>Here you can contact me. To contact me anonymously, just leave the name and email empty.</p>\n",
+        "excerpt": "<p class=\"notice--info\">Here you can contact me. To contact me anonymously, just leave the name and email empty.\n<br />\nBy using the contact form, you agree with my <a href=\"/privacy\">privacy policy</a>.</p>\n",
         "fulltext": "Here you can contact me. To contact me anonymously, just leave the name and email empty.   By using the contact form, you agree with my privacy policy.",
         "categories": null,
         "tags": null,
@@ -20,7 +20,7 @@ var store = [
 
       {
         "title": "Thank You",
-        "excerpt": "<p>Thank you for your contact request.</p>\n",
+        "excerpt": "<p class=\"notice--success\">Thank you for your contact request.</p>\n",
         "fulltext": "Thank you for your contact request.",
         "categories": null,
         "tags": null,
@@ -56,20 +56,11 @@ var store = [
 
       {
         "title": "News",
-        "excerpt": "External news article",
+        "excerpt": "<p class=\"notice--info\">Here I have linked all kinds of articles about me and my projects.</p>\n",
         "fulltext": "Here I have linked all kinds of articles about me and my projects.",
         "categories": null,
         "tags": null,
         "url": "https://www.noahpeeters.de/news/",
-        "teaser":null},
-
-      {
-        "title": "Portfolio",
-        "excerpt": "My public projects",
-        "fulltext": "In my free time, I always have some side-projects. Here you can find a list of projects I published in recent years.",
-        "categories": null,
-        "tags": null,
-        "url": "https://www.noahpeeters.de/portfolio/",
         "teaser":null},
 
       {
@@ -82,21 +73,12 @@ var store = [
         "teaser":null},
 
       {
-        "title": "Publications",
-        "excerpt": "My publication",
-        "fulltext": "",
+        "title": "Projects",
+        "excerpt": "<p class=\"notice--info\">In my free time, I always have some side-projects. Here you can find a list of projects I published in recent years. This is probably not always up to date. To find what I am currently working on, head over to my <a href=\"https://github.com/NoahPeeters?tab=repositories\">GitHub Projects</a> where I publish at least my programming stuff.</p>\n",
+        "fulltext": "In my free time, I always have some side-projects. Here you can find a list of projects I published in recent years. This is probably not always up to date. To find what I am currently working on, head over to my [GitHub Projects](https://github.com/NoahPeeters?tab=repositories) where I publish at least my programming stuff.",
         "categories": null,
         "tags": null,
-        "url": "https://www.noahpeeters.de/publications/",
-        "teaser":null},
-
-      {
-        "title": "Teaching",
-        "excerpt": "My teaching experiences",
-        "fulltext": "",
-        "categories": null,
-        "tags": null,
-        "url": "https://www.noahpeeters.de/teaching/",
+        "url": "https://www.noahpeeters.de/projects/",
         "teaser":null},
 
       {
@@ -226,12 +208,21 @@ var store = [
         "teaser":null},
 
       {
+        "title": "Hello World",
+        "excerpt": "<p>I just created this website. The main goal is to present me and my projects on the internet.</p>\n",
+        "fulltext": "I just created this website. The main goal is to present me and my projects on the internet.",
+        "categories": [],
+        "tags": [],
+        "url": "https://www.noahpeeters.de/posts/2019-12-07-hello-world/",
+        "teaser":null},
+
+      {
         "title": "FidSpeed",
         "excerpt": "iOS app to measure the speed of fidget spinners",
         "fulltext": "FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.      How does it work?   FidSpeed uses the iPhones slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.",
         "categories": [],
         "tags": ["AppStore"],
-        "url": "https://www.noahpeeters.de/portfolio/appstore/fidspeed/",
+        "url": "https://www.noahpeeters.de/projects/appstore/fidspeed/",
         "teaser":null},
 
       {
@@ -240,17 +231,17 @@ var store = [
         "fulltext": "Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different tetrominos and build a tower.",
         "categories": [],
         "tags": ["AppStore"],
-        "url": "https://www.noahpeeters.de/portfolio/appstore/wobbly_tower/",
+        "url": "https://www.noahpeeters.de/projects/appstore/wobbly_tower/",
         "teaser":null},
 
       {
-        "title": "Hello World",
-        "excerpt": "<p>I just created this website. The main goal is to present me and my projects on the internet.</p>\n",
-        "fulltext": "I just created this website. The main goal is to present me and my projects on the internet.",
+        "title": "🏳️‍🌈 Pride Calendar",
+        "excerpt": "A calender of lots of event and celebration days for the LGBTQIA+ community.",
+        "fulltext": "Sadly, the LGBTQIA+ community is not yet fully accepted in many parts of the world. To create visibility in societies, all over the world different events and celebration dates have been created by and for the community. Now, it is important that as many people as possible know about these days. Therefore, I created and maintain a calender subscription which can be imported or subscribed to in all modern calendar applications.   So please consider using a calendar subscription as the one I provided here – even if you don’t consider yourself as part of the community – to remind yourself of all the awesome days in the year we can celebrate and the hate members of the LGBTQIA+ community have to withstand daily.   Import   Importing the calendar is probably the easiest way to get started simply download the ics-file and open it with your favorite calendar app. The downside of this approach is that you won’t receive any future updates unless you manually delete all of the events from you calendar and redownload the most recent file. But we’re in the year 2020 so you can simply subscribe to my calendar :tada:   Subscription (Recommended)   The web address for the calendar subscription is https://www.noahpeeters.de/assets/ics/pride.ics.   Of course each calendar app has a slightly different UI to create a new subscription. Here is a list of some tutorials for some popular platforms/calendar apps so that you have no excuse for not subscribing:     iCloud (Mac/iOS)   iPhone   Google   Outlook",
         "categories": [],
         "tags": [],
-        "url": "https://www.noahpeeters.de/posts/2019-12-07-hello-world/",
-        "teaser":null},
+        "url": "https://www.noahpeeters.de/projects/ical/pride/",
+        "teaser":"https://www.noahpeeters.de/assets/images/512px-Gay_Pride_Flag.png"},
 
       {
         "title": "Zusammenfassung Oberstufe Physik",
