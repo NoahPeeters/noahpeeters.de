@@ -27,3 +27,7 @@ Of course each calendar app has a slightly different UI to create a new subscrip
  - [iPhone](https://www.macrumors.com/how-to/subscribe-to-calendars-on-iphone-ipad/)
  - [Google](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en)
  - [Outlook](https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
+
+## Support
+
+When you find a mistake or know of a day that should be included in the calendar, please contact me and I will update the calendar as fast as possible!
