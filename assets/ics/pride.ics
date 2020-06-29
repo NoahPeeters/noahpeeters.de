@@ -88,8 +88,8 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
 UID:wear_it_purple_day@noahpeeters.de
-DTSTART;VALUE=DATE:19961027
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART;VALUE=DATE:20100827
+RRULE:FREQ=YEARLY;BYMONTH=08;BYDAY=-1FR
 SUMMARY:🏳️‍🌈 Wear it Purple Day
 URL:https://en.wikipedia.org/wiki/Wear_it_Purple_Day
 DESCRIPTION:Awareness day especially for young people, based in Australia.
