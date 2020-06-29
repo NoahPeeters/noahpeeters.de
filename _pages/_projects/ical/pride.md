@@ -22,7 +22,7 @@ Importing the calendar is probably the easiest way to get started simply downloa
 
 The web address for the calendar subscription is [webcal://www.noahpeeters.de/assets/ics/pride.ics](webcal://www.noahpeeters.de/assets/ics/pride.ics).
 
-Of course each calendar app has a slightly different UI to create a new subscription. Here is a list of some tutorials for some popular platforms/calendar apps so that you have no excuse for not subscribing:
+On most computers, you can simply click the link above and your default calendar app will ask you if you want to add a new subscription. If that is not the case, you have to manually copy the link and add it your calendar. Of course each calendar app has a slightly different UI to create a new subscription. Here is a list of some tutorials for some popular platforms/calendar apps so that you have no excuse for not subscribing:
  - [iCloud (Mac/iOS)](https://support.apple.com/en-us/HT202361)
  - [iPhone](https://www.macrumors.com/how-to/subscribe-to-calendars-on-iphone-ipad/)
  - [Google](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&hl=en)
