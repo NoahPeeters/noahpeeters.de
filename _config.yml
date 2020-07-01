@@ -101,6 +101,9 @@ scholar:
 
 # Collections
 collections:
+  tags:
+    output: true
+    permalink: /:collection/:title/
   posts:
     output: true
     permalink: /blog/:title/
@@ -179,7 +182,8 @@ defaults:
       comments: true
   # tags
   - scope:
-      path: tags
+      path: ""
+      type: tags
     values:
       layout: tagpage
       author_profile: true
