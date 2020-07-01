@@ -91,6 +91,15 @@ var store = [
         "teaser":null},
 
       {
+        "title": "Tags",
+        "excerpt": "\n",
+        "fulltext": "",
+        "categories": null,
+        "tags": null,
+        "url": "https://www.noahpeeters.de/tags/",
+        "teaser":null},
+
+      {
         "title": "Teachings",
         "excerpt": "\n",
         "fulltext": "",
