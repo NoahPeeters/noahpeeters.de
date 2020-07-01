@@ -30,7 +30,7 @@ var store = [
       {
         "title": "CV",
         "excerpt": "My CV",
-        "fulltext": "Name          E-Mail          Phone          Homepage          Location          Citizenship                   Noah N. Peeters          noah@noahpeeters.de          +49 171 8952156‬          noahpeeters.de          Geesthacht, Germany          German                                                                                                                                         Computer science student from Germany. Currently working as an iOS Developer. Interested in sustainability.   Education     Primary School, Silberbergschule, August 2005 to July 2009   Abitur, Otto-Hahn-Gymnasium Geesthacht, August 2009 to June 2017 #OHG   Semester Abroad, Riga Technical University, September 2019 to December 2019   B.S. in Applied Computer Science, Nordakademie Hochschule der Wirtschaft, October 2017 to March 2021 (expected) #Nordakademie   Scholarships     WWDC19 Scholarship, Apple Inc., June 2019 #WWDC2019   Intercultural Communication Summer Institute, Fulbright, July 2019   Publications           Zusammenfassung Oberstufe Physik              Open Source Software - Wie nehmen Endanwender Open Source Software wahr?              Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?              Wie kann CodePush für die Verbreitung von React Native Apps eingesetzt werden?              Google Analytics for mobile apps shutdown: Analysis of the implication of switching to Google Firebase.       Teaching           Various Tutorings              Tutorial Discrete Mathematics 1         Work Experience     Internship, Computacenter AG &amp; Co oHG, March 2014   Internship, expert AG, November 2015   iOS Developer, freenet.de GmbH, October 2017 to present   Technical Skills     iOS development   Languages     :de: German (native)   :us: English (oral and written fluency)   :fr: French (DELF A2)   Service and Leadership     JAV (Youth and apprentice representation) for freenet AG @ Hamburg since November 2019   Board member of the student organisation “Studentengemeinschaft Nordakademie e.V.”, February 2019 to February 2021 #Nordakademie   Leadership of the Nordakademie seminar team, January 2020 to February 2021 #Nordakademie   Chairman of the “Die PARTEI Hochschulgruppe Nordakademie”, February 2020 to February 2021 #Nordakademie   Member of the Nordakademie student parliament for research and sustainability, March 2020 to March 2021 #Nordakademie   Memberships     Fulbright Alumni e.V., The German Fulbright Alumni Association #Fulbright   Die PARTEI, Die Partei für Arbeit, Rechsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+        "fulltext": "Name          E-Mail          Phone          Homepage          Location          Citizenship                   Noah N. Peeters          noah@noahpeeters.de          +49 171 8952156‬          noahpeeters.de          Geesthacht, Germany          German                                                                                                                                         Computer science student from Germany. Currently working as an iOS Developer. Interested in sustainability.   Education     Primary School, Silberbergschule, August 2005 to July 2009   Abitur, Otto-Hahn-Gymnasium Geesthacht, August 2009 to June 2017 #OHG   Semester Abroad, Riga Technical University, September 2019 to December 2019   B.S. in Applied Computer Science, Nordakademie Hochschule der Wirtschaft, October 2017 to March 2021 (expected) #Nordakademie   Scholarships     WWDC19 Scholarship, Apple Inc., June 2019 #WWDC2019   Intercultural Communication Summer Institute, Fulbright, July 2019   Publications           Zusammenfassung Oberstufe Physik              Open Source Software - Wie nehmen Endanwender Open Source Software wahr?              Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?              Wie kann CodePush für die Verbreitung von React Native Apps eingesetzt werden?              Google Analytics for mobile apps shutdown: Analysis of the implication of switching to Google Firebase.       Teachings           Various Tutorings              Tutorial Discrete Mathematics 1         Work Experience     Internship, Computacenter AG &amp; Co oHG, March 2014   Internship, expert AG, November 2015   iOS Developer, freenet.de GmbH, October 2017 to present   Technical Skills     iOS development   Languages     :de: German (native)   :us: English (oral and written fluency)   :fr: French (DELF A2)   Service and Leadership     JAV (Youth and apprentice representation) for freenet AG @ Hamburg since November 2019   Board member of the student organisation “Studentengemeinschaft Nordakademie e.V.”, February 2019 to February 2021 #Nordakademie   Leadership of the Nordakademie seminar team, January 2020 to February 2021 #Nordakademie   Chairman of the “Die PARTEI Hochschulgruppe Nordakademie”, February 2020 to February 2021 #Nordakademie   Member of the Nordakademie student parliament for research and sustainability, March 2020 to March 2021 #Nordakademie   Memberships     Fulbright Alumni e.V., The German Fulbright Alumni Association #Fulbright   Die PARTEI, Die Partei für Arbeit, Rechsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
         "categories": null,
         "tags": null,
         "url": "https://www.noahpeeters.de/cv/",
@@ -82,12 +82,30 @@ var store = [
         "teaser":null},
 
       {
+        "title": "Publications",
+        "excerpt": "\n",
+        "fulltext": "",
+        "categories": null,
+        "tags": null,
+        "url": "https://www.noahpeeters.de/publications/",
+        "teaser":null},
+
+      {
+        "title": "Teachings",
+        "excerpt": "\n",
+        "fulltext": "",
+        "categories": null,
+        "tags": null,
+        "url": "https://www.noahpeeters.de/teachings/",
+        "teaser":null},
+
+      {
         "title": "Schüler des Otto-Hahn-Gymnasiums kämpft mit virtuellem Spieler um den Einzug ins Finale",
         "excerpt": "Article about my participation in the \"Software Challenge\".",
         "fulltext": "",
         "categories": [],
         "tags": ["SoftwareChallange","OHG"],
-        "url": "https://www.noahpeeters.de/news/ohg/software-challenge/loz-news/",
+        "url": "https://www.noahpeeters.de/news/software-challenge-loz-news/",
         "teaser":null},
 
       {
@@ -96,7 +114,7 @@ var store = [
         "fulltext": "This article was created after an interview with me and my two team members Til Blechschmidt and Max Zager. Sadly, we did not made it into the finals. Nevertheless, I got a scholarship for studying computer science at the Christian-Albrechts-Universität (CAU) in Kiel.",
         "categories": [],
         "tags": ["SoftwareChallange","OHG"],
-        "url": "https://www.noahpeeters.de/news/ohg/software-challenge/bergedorfer-zeitung/",
+        "url": "https://www.noahpeeters.de/news/software-challenge-bergedorfer-zeitung/",
         "teaser":null},
 
       {
@@ -105,7 +123,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": [],
-        "url": "https://www.noahpeeters.de/news/other/drone-sailing/",
+        "url": "https://www.noahpeeters.de/news/drone-sailing/",
         "teaser":null},
 
       {
@@ -114,7 +132,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["OHG"],
-        "url": "https://www.noahpeeters.de/news/ohg/abitur/",
+        "url": "https://www.noahpeeters.de/news/ohg-abitur/",
         "teaser":null},
 
       {
@@ -123,7 +141,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["OHG"],
-        "url": "https://www.noahpeeters.de/news/ohg/lange-nacht-der-mathematik-2017/",
+        "url": "https://www.noahpeeters.de/news/lange-nacht-der-mathematik-2017/",
         "teaser":null},
 
       {
@@ -132,7 +150,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019"],
-        "url": "https://www.noahpeeters.de/news/wwdc/bergedorfer-zeitung/",
+        "url": "https://www.noahpeeters.de/news/wwdc-bergedorfer-zeitung/",
         "teaser":null},
 
       {
@@ -141,7 +159,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019","AppStore"],
-        "url": "https://www.noahpeeters.de/news/wwdc/macerkopf-apps/",
+        "url": "https://www.noahpeeters.de/news/wwdc-macerkopf-apps/",
         "teaser":null},
 
       {
@@ -150,7 +168,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019","AppStore"],
-        "url": "https://www.noahpeeters.de/news/wwdc/maclife-apps/",
+        "url": "https://www.noahpeeters.de/news/wwdc-maclife-apps/",
         "teaser":null},
 
       {
@@ -159,7 +177,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019"],
-        "url": "https://www.noahpeeters.de/news/wwdc/mactechnews-participants/",
+        "url": "https://www.noahpeeters.de/news/wwdc-mactechnews-participants/",
         "teaser":null},
 
       {
@@ -168,7 +186,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019","Nordakademie"],
-        "url": "https://www.noahpeeters.de/news/wwdc/nordakademie/",
+        "url": "https://www.noahpeeters.de/news/wwdc-nordakademie/",
         "teaser":null},
 
       {
@@ -177,7 +195,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019"],
-        "url": "https://www.noahpeeters.de/news/wwdc/shz/",
+        "url": "https://www.noahpeeters.de/news/wwdc-shz/",
         "teaser":null},
 
       {
@@ -186,7 +204,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["Fulbright"],
-        "url": "https://www.noahpeeters.de/news/fulbright/new-member/",
+        "url": "https://www.noahpeeters.de/news/fulbright-new-member/",
         "teaser":null},
 
       {
@@ -195,7 +213,7 @@ var store = [
         "fulltext": "",
         "categories": [],
         "tags": ["WWDC2019","Nordakademie"],
-        "url": "https://www.noahpeeters.de/news/wwdc/nordakademie-campusforum/",
+        "url": "https://www.noahpeeters.de/news/wwdc-nordakademie-campusforum/",
         "teaser":null},
 
       {
@@ -204,7 +222,7 @@ var store = [
         "fulltext": "In 2020, I was elected to be part of the StuPa for the following year. We had our first meeting on March 6th to get to know each other and decide the distribution of tasks.",
         "categories": [],
         "tags": ["Nordakademie"],
-        "url": "https://www.noahpeeters.de/news/nordakademie/stupa_first_meeting/",
+        "url": "https://www.noahpeeters.de/news/nak-stupa_first_meeting/",
         "teaser":null},
 
       {
@@ -213,16 +231,16 @@ var store = [
         "fulltext": "I just created this website. The main goal is to present me and my projects on the internet.",
         "categories": [],
         "tags": [],
-        "url": "https://www.noahpeeters.de/posts/2019-12-07-hello-world/",
+        "url": "https://www.noahpeeters.de/blog/hello-world/",
         "teaser":null},
 
       {
         "title": "FidSpeed",
         "excerpt": "iOS app to measure the speed of fidget spinners",
-        "fulltext": "FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.   The free version of the app contains advertisement but is not available in all regions.      How does it work?   FidSpeed uses the iPhones slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.",
+        "fulltext": "FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.   The free version of the app contains advertisements but is not available in all regions.      How does it work?   FidSpeed uses the iPhone’s slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.",
         "categories": [],
         "tags": ["AppStore"],
-        "url": "https://www.noahpeeters.de/projects/appstore/fidspeed/",
+        "url": "https://www.noahpeeters.de/projects/fidspeed/",
         "teaser":"https://www.noahpeeters.de/assets/images/person-holding-black-finger-spinner-776116.jpg"},
 
       {
@@ -231,7 +249,7 @@ var store = [
         "fulltext": "Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different tetrominos and build a tower.      The teaser image on the project overview was obtained from and created by Anypodetos @ Wikipedia.",
         "categories": [],
         "tags": ["AppStore"],
-        "url": "https://www.noahpeeters.de/projects/appstore/wobbly_tower/",
+        "url": "https://www.noahpeeters.de/projects/wobbly_tower/",
         "teaser":"https://www.noahpeeters.de/assets/images/All_5_free_tetrominoes.png"},
 
       {
@@ -240,7 +258,7 @@ var store = [
         "fulltext": "Sadly, the LGBTQIA+ community is not yet fully accepted in many parts of the world. To create visibility in societies, all over the world different events and celebration dates have been created by and for the community. Now, as many people as possible must know about these days. Therefore, I created and maintain a calendar subscription that can be imported or subscribed to in all modern calendar applications.   So please consider using a calendar subscription like the one I provided here – even if you don’t consider yourself as part of the community – to remind yourself of all the awesome days in the year we can celebrate and the hate members of the LGBTQIA+ community have to withstand daily.   Import   Importing the calendar is probably the easiest way to get started simply download the ics-file and open it with your favorite calendar app. The downside of this approach is that you won’t receive any future updates unless you manually delete all of the events from your calendar and redownload the most recent file. But we’re in the year 2020 so you can simply subscribe to my calendar :tada:   Subscription (Recommended)   The web address for the calendar subscription is webcal://www.noahpeeters.de/assets/ics/pride.ics.   On most computers, you can simply click the link above and your default calendar app will ask you if you want to add a new subscription. If that is not the case, you have to manually copy the link and add it to your calendar. Of course, each calendar app has a slightly different UI to create a new subscription. Here is a list of some tutorials for some popular platforms/calendar apps so that you have no excuse for not subscribing:     iCloud (Mac/iOS)   iPhone   Google   Outlook   Support   When you find a mistake or know of a day that should be included in the calendar, please contact me and I will update the calendar as fast as possible!",
         "categories": [],
         "tags": [],
-        "url": "https://www.noahpeeters.de/projects/ical/pride/",
+        "url": "https://www.noahpeeters.de/projects/pride-calendar/",
         "teaser":"https://www.noahpeeters.de/assets/images/512px-Gay_Pride_Flag.png"},
 
       {
@@ -249,7 +267,7 @@ var store = [
         "fulltext": "In this paper, I summarized all topics we discussed in school in physics.   Goal   The goal of the paper is to give students an overview of all topics. This allows them to practice for the Abitur using this paper.   The paper does not have the goal to teach new students the topic and I discourage anyone from trying so as the explanations are not broad enough to completely understand the topic.   Paper structure   The paper uses the same structure as my class in school. The paper contains explanations for each topic.",
         "categories": [],
         "tags": ["OHG"],
-        "url": "https://www.noahpeeters.de/publications/ohg/oberstufe-physik/",
+        "url": "https://www.noahpeeters.de/publications/oberstufe-physik/",
         "teaser":null},
 
       {
@@ -258,16 +276,16 @@ var store = [
         "fulltext": "Survey on the perception of Open Source Software.",
         "categories": [],
         "tags": ["Nordakademie"],
-        "url": "https://www.noahpeeters.de/publications/nordakademie/open-source-software/",
+        "url": "https://www.noahpeeters.de/publications/nak-open-source-software/",
         "teaser":null},
 
       {
         "title": "Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?",
         "excerpt": "This is my first Transferleistung.",
-        "fulltext": "In this paper, I analyzed and compared the three different testing methods manual testing, unit testing and ui testing to identify the potential benefits of creating ui tests for iOS apps. I concluded that it can be useful to have ui tests to support the other testing methods for some apps. But some apps do not profit that much from ui tests so that it is important to further analyze an app before deciding to create ui tests or not.   I created this paper for an assignment during my Bachelor’s degree.",
+        "fulltext": "In this paper, I analyzed and compared the three different testing methods manual testing, unit testing, and UI testing to identify the potential benefits of creating UI tests for iOS apps. I concluded that it can be useful to have UI tests to support the other testing methods for some apps. But some apps do not profit that much from UI tests so that it is important to further analyze an app before deciding to create UI tests or not.   I created this paper for an assignment during my Bachelor’s degree.",
         "categories": [],
         "tags": ["Transferleistung","Nordakademie"],
-        "url": "https://www.noahpeeters.de/publications/nordakademie/transferleistung1/",
+        "url": "https://www.noahpeeters.de/publications/nak-transfer-paper-1/",
         "teaser":null},
 
       {
@@ -276,7 +294,7 @@ var store = [
         "fulltext": "This is my second Transferleistung.",
         "categories": [],
         "tags": ["Transferleistung","Nordakademie"],
-        "url": "https://www.noahpeeters.de/publications/nordakademie/transferleistung2/",
+        "url": "https://www.noahpeeters.de/publications/nak-transfer-paper-2/",
         "teaser":null},
 
       {
@@ -285,7 +303,7 @@ var store = [
         "fulltext": "This is my third Transferleistung.",
         "categories": [],
         "tags": ["Transferleistung","Nordakademie"],
-        "url": "https://www.noahpeeters.de/publications/nordakademie/transferleistung3/",
+        "url": "https://www.noahpeeters.de/publications/nak-transfer-paper-3/",
         "teaser":null},
 
       {
@@ -294,7 +312,7 @@ var store = [
         "fulltext": "Since 2015 during my time at grammar school, I regularly gave other students tutoring in mathematics and physics.",
         "categories": [],
         "tags": ["OHG"],
-        "url": "https://www.noahpeeters.de/teaching/ohg/tutoring/",
+        "url": "https://www.noahpeeters.de/teachings/tutoring/",
         "teaser":null},
 
       {
@@ -303,5 +321,5 @@ var store = [
         "fulltext": "During my third semester of my bachelor’s degree, I was the instructor of the tutorial for I154 “Discrete Mathematics 1”.   The lecture covered the following topics:      Foundations            Set theory       Propositional and predicate logic       Simple proof techniques       Mathematical induction           Propositional calculus and boolean algebra            Logical connective       Propositions       Equivalence of propositions       Boolean functions       Canonical forms of boolean functions           Combinatorial circuit            Implementation of boolean functions       Simplification of boolean functions",
         "categories": [],
         "tags": ["Nordakademie"],
-        "url": "https://www.noahpeeters.de/teaching/nordakademie/tutorial-dm1/",
+        "url": "https://www.noahpeeters.de/teachings/tutorial-dm1/",
         "teaser":null},]
