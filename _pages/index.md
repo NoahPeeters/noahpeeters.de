@@ -11,7 +11,7 @@ I'll try to maintain a single point of contact for my digital life here. If you 
 Just some stats about this website
 
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m784826742-736882641340bace30e4e44a?label=Uptime)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/NoahPeeters/noahpeeters.de/gh-pages?label=Last%20update)
+![Last update](https://img.shields.io/badge/Last%20update-{{ 'now' | date: "%b%%20%d,%%20%Y" }}-success)
 
 ## GitHub contribution chart
 What else would you put on the main page of your website?

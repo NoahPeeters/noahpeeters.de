@@ -27,9 +27,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Teaching
+Teachings
 --------
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teachings %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 

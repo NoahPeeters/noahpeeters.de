@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My personal website about me and my projects.
 baseurl: "/"
 url: "https://www.noahpeeters.de"
-breadcrumbs: false
+breadcrumbs: true
 
 twitter:
   username: noah_peeters
@@ -103,19 +103,19 @@ scholar:
 collections:
   posts:
     output: true
-    permalink: /:collection/:path/
-  teaching:
+    permalink: /blog/:title/
+  teachings:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
   news:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
 
 # Defaults
 defaults:
@@ -137,10 +137,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _teaching
+  # _teachings
   - scope:
       path: ""
-      type: teaching
+      type: teachings
     values:
       layout: single
       author_profile: true
@@ -166,7 +166,7 @@ defaults:
       author_profile: true
       read_time: true
       share: true
-      comment: true
+      comments: true
   # _news
   - scope:
       path: ""
@@ -176,7 +176,7 @@ defaults:
       author_profile: true
       read_time: true
       share: true
-      comment: true
+      comments: true
   # tags
   - scope:
       path: tags
