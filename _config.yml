@@ -135,7 +135,6 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: true
@@ -146,7 +145,6 @@ defaults:
       type: teachings
     values:
       layout: single
-      author_profile: true
       read_time: true
       share: true
       comments: true
@@ -156,7 +154,6 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
       read_time: true
       share: true
       comments: true
@@ -166,7 +163,6 @@ defaults:
       type: projects
     values:
       layout: single
-      author_profile: true
       read_time: true
       share: true
       comments: true
@@ -176,7 +172,6 @@ defaults:
       type: news
     values:
       layout: single
-      author_profile: true
       read_time: true
       share: true
       comments: true
@@ -186,7 +181,6 @@ defaults:
       type: tags
     values:
       layout: tagpage
-      author_profile: true
       search: false
       title-prefix: 'Tag: '
   - scope:
