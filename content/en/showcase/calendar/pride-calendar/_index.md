@@ -18,11 +18,11 @@ So please consider using a calendar subscription like the one I provided here --
 
 ## Import
 
-Importing the calendar is probably the easiest way to get started simply download the [ics-file](https://www.noahpeeters.de/showcase/calendar/pride-calendar/calendar.ics) and open it with your favorite calendar app. The downside of this approach is that you won't receive any future updates unless you manually delete all of the events from your calendar and redownload the most recent file. But we're in the year 2020 so you can simply subscribe to my calendar :tada:
+Importing the calendar is probably the easiest way to get started simply download the [ics-file](https://www.noahpeeters.de/showcase/calendar/pride-calendar/index.ics) and open it with your favorite calendar app. The downside of this approach is that you won't receive any future updates unless you manually delete all of the events from your calendar and redownload the most recent file. But we're in the year 2020 so you can simply subscribe to my calendar :tada:
 
 ## Subscription (Recommended)
 
-The web address for the calendar subscription is [webcal://www.noahpeeters.de/showcase/calendar/pride-calendar/calendar.ics](webcal://www.noahpeeters.de/showcase/calendar/pride-calendar/calendar.ics).
+The web address for the calendar subscription is [webcal://www.noahpeeters.de/showcase/calendar/pride-calendar/index.ics](webcal://www.noahpeeters.de/showcase/calendar/pride-calendar/index.ics).
 
 On most computers, you can simply click the link above and your default calendar app will ask you if you want to add a new subscription. If that is not the case, you have to manually copy the link and add it to your calendar. Of course, each calendar app has a slightly different UI to create a new subscription. Here is a list of some tutorials for some popular platforms/calendar apps so that you have no excuse for not subscribing:
  - [iCloud (Mac/iOS)](https://support.apple.com/en-us/HT202361)
