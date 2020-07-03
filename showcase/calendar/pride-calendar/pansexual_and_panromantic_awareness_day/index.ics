@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//noahpeeters.de//iCal Event Maker//Calendar Provider//EN
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
 NAME:Pride Calendar
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
