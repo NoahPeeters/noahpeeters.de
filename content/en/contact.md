@@ -8,5 +8,5 @@ formId: xvowqojk
 ---
 
 {{< notice info >}}
-Here you can contact me. To contact me anonymously, just leave the name and email empty. By using the contact form, you agree with my [privacy policy](privacy).
+Here you can contact me. To contact me anonymously, just leave the name and email empty. By using the contact form, you agree with my [privacy policy](/privacy).
 {{< /notice >}}
