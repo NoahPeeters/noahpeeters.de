@@ -1,5 +1,5 @@
 ---
-title: "Fidspeed"
+title: "FidSpeed"
 date: 2019-12-10
 description: Make a documentation with hugo zdoc theme!
 weight: 2
