@@ -1,8 +1,6 @@
 BEGIN:VEVENT
-ORGANIZER;CN="Noah Peeters":mailto:noah@noahpeeters.de
 SUMMARY:{{ .Title }}
 UID:{{ .File.UniqueID }}@noahpeeters.de
-STATUS:CONFIRMED
 DTSTAMP:{{ if (eq hugo.Environment "production") }}{{ dateFormat "20060102T150405Z" .Lastmod }}{{ else }}{{ dateFormat "20060102T150405Z" now }}{{ end }}
 {{ $allday := (eq .Params.time.allday true) -}}
 {{ if $allday -}}
