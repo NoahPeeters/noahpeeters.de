@@ -1,4 +1,0 @@
-{%- assign taglist = include.tags | split: ',' -%}
-{%- for tag in taglist | -%}
-    {%- include taglink.html no-print=true -%}
-{%- endfor -%}

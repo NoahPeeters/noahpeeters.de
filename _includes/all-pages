@@ -1,6 +1,0 @@
-{% assign pages = site.pages %}
-{% assign pages = pages | concat: site.posts %}
-{% assign pages = pages | concat: site.teachings %}
-{% assign pages = pages | concat: site.publications %}
-{% assign pages = pages | concat: site.projects %}
-{% assign pages = pages | concat: site.news %}

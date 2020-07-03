@@ -1,7 +1,0 @@
-{% assign query = '@*[key=' | append: include.citation-key | append: ']' %}
-
-{% capture citation %}
-{% bibliography -f my-publications -q {{query}} --max 1 %}
-{% endcapture %}
-
-{{ citation | strip_html | replace: '[1]','' }}

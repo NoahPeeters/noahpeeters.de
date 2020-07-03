@@ -1,8 +1,0 @@
----
----
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes";
-@import "variables";
-@import "overwrite";
-@import "printing";

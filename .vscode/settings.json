@@ -1,7 +1,0 @@
-{
-    "files.exclude": {
-        ".sass-cache": true,
-        ".vscode": true,
-        "Gemfile.lock": true
-    }
-}
