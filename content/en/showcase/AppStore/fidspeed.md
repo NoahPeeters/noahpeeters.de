@@ -13,7 +13,7 @@ FidSpeed is an iOS app to measure the speed of [Fidget Spinners](https://en.wiki
 
 The free version of the app contains advertisements but is not available in all regions.
 
-[![Download on the AppStore](/images/appstore/appstore_download_button.svg)](https://apps.apple.com/us/app/fidspeed-measure-and-share-your-speed/id1249421434)
+{{< appstore-download appID="1249421434" >}}
 
 ## How does it work?
 
