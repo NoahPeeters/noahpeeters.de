@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>legal on Noah Peeters</title>
+    <link>https://www.noahpeeters.de/tags/legal/</link>
+    <description>Recent content in legal on Noah Peeters</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>noah@noahpeeters.de (Noah Peeters)</managingEditor>
+    <webMaster>noah@noahpeeters.de (Noah Peeters)</webMaster>
+    <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.noahpeeters.de/tags/legal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Imprint</title>
+        <link>https://www.noahpeeters.de/imprint/</link>
+        <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+        <author>noah@noahpeeters.de (Noah Peeters)</author>
+        <atom:modified>Fri, 03 Jul 2020 22:49:36 +0200</atom:modified>
+        <guid>https://www.noahpeeters.de/imprint/</guid>
+        <description>Diensteanbieter  Noah Peeters
+ Wilmersdorfer Straße 1
+ 21502 Geesthacht
+ Germany
+KontaktmöglichkeitenE-Mail-Adresse: noah@noahpeeters.de
+Telefon: +491718952156
+Journalistisch-redaktionelle AngeboteInhaltlich verantwortlich: Noah Peeters
+Social Media und andere OnlinepräsenzenDieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:
+https://keybase.io/noahpeeters
+https://twitter.com/noah_peeters
+https://www.linkedin.com/in/noahpeeters/
+https://www.xing.com/profile/Noah_Peeters/
+https://github.com/noahpeeters
+https://stackoverflow.com/users/10961090/noah-peeters?tab=profile
+Haftungs- und UrheberrechtshinweiseHaftungsausschluss: Die Inhalte dieses Onlineangebotes wurden sorgfältig und nach unserem aktuellen Kenntnisstand erstellt, dienen jedoch nur der Information und entfalten keine rechtlich bindende Wirkung, sofern es sich nicht um gesetzlich verpflichtende Informationen (z.</description>
+        
+        <dc:creator>Noah Peeters</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>legal</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Privacy Policy</title>
+        <link>https://www.noahpeeters.de/privacy/</link>
+        <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+        <author>noah@noahpeeters.de (Noah Peeters)</author>
+        <atom:modified>Fri, 03 Jul 2020 22:49:36 +0200</atom:modified>
+        <guid>https://www.noahpeeters.de/privacy/</guid>
+        <description>Einleitung Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als &#34;Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als &#34;Onlineangebot“).</description>
+        
+        <dc:creator>Noah Peeters</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>legal</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
