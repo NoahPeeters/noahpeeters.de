@@ -27,12 +27,11 @@
         <link>https://www.noahpeeters.de/showcase/appstore/fidspeed/</link>
         <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
-        <atom:modified>Fri, 03 Jul 2020 23:24:55 +0200</atom:modified>
+        <atom:modified>Sat, 04 Jul 2020 00:17:08 +0200</atom:modified>
         <guid>https://www.noahpeeters.de/showcase/appstore/fidspeed/</guid>
         <description>FidSpeed is an iOS app to measure the speed of Fidget Spinners which became very popular in 2017.
 The free version of the app contains advertisements but is not available in all regions.
-
-How does it work? FidSpeed uses the iPhone&amp;rsquo;s slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.</description>
+ How does it work? FidSpeed uses the iPhone&amp;rsquo;s slow-motion camera to capture the motion of Fidget Spinners in real-time. From each frame, the current angle of the Fidget Spinner is determined, which can be used to calculate the speed.</description>
         
         <dc:creator>Noah Peeters</dc:creator>
         
@@ -48,9 +47,10 @@ How does it work? FidSpeed uses the iPhone&amp;rsquo;s slow-motion camera to cap
         <link>https://www.noahpeeters.de/showcase/appstore/wobbly_tower/</link>
         <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
-        <atom:modified>Fri, 03 Jul 2020 23:23:52 +0200</atom:modified>
+        <atom:modified>Sat, 04 Jul 2020 00:17:08 +0200</atom:modified>
         <guid>https://www.noahpeeters.de/showcase/appstore/wobbly_tower/</guid>
-        <description>Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different tetrominos and build a tower.</description>
+        <description>Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different tetrominos and build a tower.
+ </description>
         
         <dc:creator>Noah Peeters</dc:creator>
         
