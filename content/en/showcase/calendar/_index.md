@@ -1,0 +1,5 @@
+---
+title: Calendars
+outputs:
+  - HTML
+---

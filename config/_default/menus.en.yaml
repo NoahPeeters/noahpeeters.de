@@ -1,0 +1,24 @@
+main:
+  - identifier: "cv"
+    name: "CV"
+    url: "cv"
+    weight: 1
+
+  - identifier: "posts"
+    name: "Posts"
+    url: "posts"
+    weight: 2
+
+  - parent: "posts"
+    name: "Archive"
+    url: "archive"
+
+  - identifier: "showcase"
+    name: "Projects"
+    url: "showcase"
+    weight: 3
+
+  - identifier: "publication"
+    name: "Pub"
+    url: "publication"
+    weight: 4

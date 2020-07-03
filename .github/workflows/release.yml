@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build + Relase
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+        with:
+          submodules: true
+      - name: Install Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '^1.13.1'
+      - name: Install Hugo
+        run: |
+          mkdir $HOME/src
+          git clone https://github.com/gohugoio/hugo.git $HOME/src/hugo
+          cd $HOME/src/hugo
+          go install --tags extended
+          cd -
+      - name: Build website
+        run: hugo
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public

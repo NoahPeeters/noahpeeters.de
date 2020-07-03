@@ -1,0 +1,3 @@
+{{ partial "event/vcalendar-header.ics" . -}}
+{{ partial "event/vevent.ics" . -}}
+{{ partial "event/vcalendar-footer.ics" . -}}

@@ -1,0 +1,5 @@
+{{ partial "event/vcalendar-header.ics" . -}}
+{{ range where .Pages "IsNode" false -}}
+  {{ partial "event/vevent.ics" . -}}
+{{ end -}}
+{{ partial "event/vcalendar-footer.ics" . -}}

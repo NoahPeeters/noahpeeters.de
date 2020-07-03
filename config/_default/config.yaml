@@ -1,0 +1,54 @@
+baseURL: "https://www.noahpeeters.de"
+title: "Noah Peeters"
+theme: "zzo"
+
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
+hasCJKLanguage: true
+
+summaryLength: 70
+buildFuture: true
+
+copyright: "&copy;2019 -- {year}, All Rights Reserved"
+timeout: 10000
+enableEmoji: true
+paginate: 13
+rssLimit: 100
+
+enableGitInfo: true
+googleAnalytics: ""
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xHTML: true
+  highlight:
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+
+outputs:
+  home: ["HTML", "RSS", "SearchIndex"]
+  section: ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm: ["HTML", "RSS", "SearchIndex"]
+  taxonomy: ["HTML", "RSS", "SearchIndex"]
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "index"
+    isPlainText: true
+    notAlternative: true
+
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  series: "series"
