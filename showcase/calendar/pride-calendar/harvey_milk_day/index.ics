@@ -4,10 +4,8 @@ PRODID:-//noahpeeters.de//iCal Event Maker//Calendar Provider//EN
 NAME:Pride Calendar
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-ORGANIZER;CN="Noah Peeters":mailto:noah@noahpeeters.de
 SUMMARY:🏳️‍🌈 Harvey Milk Day
 UID:20e8063e8e7ce67aee8322ec204ed90b@noahpeeters.de
-STATUS:CONFIRMED
 DTSTAMP:20200703T224936Z
 DTSTART;VALUE=DATE:20100522
 RRULE:FREQ=YEARLY;

@@ -4,10 +4,8 @@ PRODID:-//noahpeeters.de//iCal Event Maker//Calendar Provider//EN
 NAME:Pride Calendar
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-ORGANIZER;CN="Noah Peeters":mailto:noah@noahpeeters.de
 SUMMARY:🏳️‍🌈 Transgender Day of Remembrance
 UID:5c836f83d155bac877789e9a7095a5fd@noahpeeters.de
-STATUS:CONFIRMED
 DTSTAMP:20200703T224936Z
 DTSTART;VALUE=DATE:19991120
 RRULE:FREQ=YEARLY;
