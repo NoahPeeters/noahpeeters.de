@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>legal on Noah Peeters</title>
-    <link>https://www.noahpeeters.de/tags/legal/</link>
+    <link>https://noahpeeters.de/tags/legal/</link>
     <description>Recent content in legal on Noah Peeters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.noahpeeters.de/tags/legal/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://noahpeeters.de/tags/legal/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Imprint</title>
-        <link>https://www.noahpeeters.de/imprint/</link>
+        <link>https://noahpeeters.de/imprint/</link>
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
         <atom:modified>Fri, 03 Jul 2020 22:49:36 +0200</atom:modified>
-        <guid>https://www.noahpeeters.de/imprint/</guid>
+        <guid>https://noahpeeters.de/imprint/</guid>
         <description>Diensteanbieter  Noah Peeters
  Wilmersdorfer Straße 1
  21502 Geesthacht
@@ -62,11 +62,11 @@ Haftungs- und UrheberrechtshinweiseHaftungsausschluss: Die Inhalte dieses Online
       
       <item>
         <title>Privacy Policy</title>
-        <link>https://www.noahpeeters.de/privacy/</link>
+        <link>https://noahpeeters.de/privacy/</link>
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
-        <atom:modified>Fri, 03 Jul 2020 22:49:36 +0200</atom:modified>
-        <guid>https://www.noahpeeters.de/privacy/</guid>
+        <atom:modified>Fri, 24 Jul 2020 19:30:12 +0200</atom:modified>
+        <guid>https://noahpeeters.de/privacy/</guid>
         <description>Einleitung Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als &#34;Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als &#34;Onlineangebot“).</description>
         
         <dc:creator>Noah Peeters</dc:creator>

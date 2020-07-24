@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Publications on Noah Peeters</title>
-    <link>https://www.noahpeeters.de/publication/</link>
+    <link>https://noahpeeters.de/publication/</link>
     <description>Recent content in Publications on Noah Peeters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
-        <atom:link href="https://www.noahpeeters.de/publication/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://noahpeeters.de/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>misc</title>
-        <link>https://www.noahpeeters.de/publication/misc/</link>
+        <link>https://noahpeeters.de/publication/misc/</link>
         <pubDate>Thu, 05 Mar 2020 14:08:48 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
         <atom:modified>Fri, 03 Jul 2020 22:49:36 +0200</atom:modified>
-        <guid>https://www.noahpeeters.de/publication/misc/</guid>
+        <guid>https://noahpeeters.de/publication/misc/</guid>
         <description></description>
         
         <dc:creator>Noah Peeters</dc:creator>

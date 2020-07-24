@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Noah Peeters</title>
-    <link>https://www.noahpeeters.de/tags/</link>
+    <link>https://noahpeeters.de/tags/</link>
     <description>Recent content in Tags on Noah Peeters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.noahpeeters.de/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://noahpeeters.de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>legal</title>
-        <link>https://www.noahpeeters.de/tags/legal/</link>
+        <link>https://noahpeeters.de/tags/legal/</link>
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
         
-        <guid>https://www.noahpeeters.de/tags/legal/</guid>
+        <guid>https://noahpeeters.de/tags/legal/</guid>
         <description></description>
         
         <dc:creator>Noah Peeters</dc:creator>

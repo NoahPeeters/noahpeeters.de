@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Noah Peeters</title>
-    <link>https://www.noahpeeters.de/categories/</link>
+    <link>https://noahpeeters.de/categories/</link>
     <description>Recent content in Categories on Noah Peeters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>noah@noahpeeters.de (Noah Peeters)</webMaster>
     <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
     
-        <atom:link href="https://www.noahpeeters.de/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://noahpeeters.de/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
