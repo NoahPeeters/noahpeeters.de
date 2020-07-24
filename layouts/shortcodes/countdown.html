@@ -1,0 +1,33 @@
+{{ $htmlID := (printf "countdown-%s-%s" (.Get "date") (.Get "id")) -}}
+
+<div class="box" style="text-align: center;">
+    {{ .Inner | markdownify }}
+    <pre id="{{ $htmlID }}" style="padding: 0; font-size: 40px;"></pre>
+</div>
+
+<script>
+    let targetDate = new Date("{{ .Get "date" }}");
+    let targetTime = targetDate.getTime();
+    let countdownElement = document.getElementById("{{ $htmlID }}");
+
+    function updateCountdown() {
+        let remainingTime = targetTime - new Date().getTime();
+
+        if (remainingTime <= 0) {
+            countdownElement.innerHTML = targetDate.toLocaleString();
+            clearInterval(countdownInterval);
+        } else {
+            let seconds = Math.floor((remainingTime /= 1000) % 60).toString().padStart(2, '0');
+            let minutes = Math.floor((remainingTime /= 60) % 60).toString().padStart(2, '0');
+            let hours = Math.floor((remainingTime /= 60) % 24).toString().padStart(2, '0');
+            let days = Math.floor((remainingTime /= 24)).toString().padStart(2, '0');
+            countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+        }
+    }
+
+    let countdownInterval = setInterval(function () {
+        updateCountdown();
+    }, 1000);
+
+    updateCountdown();
+</script>
