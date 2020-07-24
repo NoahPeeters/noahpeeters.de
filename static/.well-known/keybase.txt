@@ -1,14 +1,14 @@
 noahpeeters
 Noah Peeters
 Computer Sciencs Student
-Elmshorn, Germany
+Geesthacht, Germany
 ==================================================================
 https://keybase.io/noahpeeters
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://www.noahpeeters.de
+  * I am an admin of https://noahpeeters.de
   * I am noahpeeters (https://keybase.io/noahpeeters) on keybase.
   * I have a public key ASAjfXAQwZxmpcSu5ktmc1zQ6wmsC_JpCu7vyYogCbkUowo
 
@@ -24,14 +24,14 @@ To do so, I am signing this object:
       "username": "noahpeeters"
     },
     "merkle_root": {
-      "ctime": 1575759755,
-      "hash": "0cb204bfdd45f5be8fead32ad3c477eec1ed7fc54fd925b6f54640849e86702e980f7fa129dbdfcbb1ca611cb4880e67da2c31161e2bd9cfb302b4a4d816a8da",
-      "hash_meta": "a6656231503c2d28730709c292f6e0dcbb24e2afe3d492732f93671761b612cb",
-      "seqno": 12748274
+      "ctime": 1595624019,
+      "hash": "59bf9532e656ee5a66481164191559156b1fa22d88517fa679bc78fd44b57201070bd64fa9dc97abb29926f78e5148ae00b40729c6b3d66f8f747b168049a066",
+      "hash_meta": "7723cb4d0096656cf772d76974e75de0ca9cce85a7840c2620d06064a96cb872",
+      "seqno": 17075171
     },
     "service": {
-      "entropy": "ZIMocFyDPBwBF2fpMZdK0gj9",
-      "hostname": "www.noahpeeters.de",
+      "entropy": "zg2YcGxiLwG2rE6yADcexTDP",
+      "hostname": "noahpeeters.de",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -39,18 +39,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.0.0"
+    "version": "5.5.0"
   },
-  "ctime": 1575759766,
+  "ctime": 1595624030,
   "expire_in": 504576000,
-  "prev": "b6d0e8807d8d8bad26f8b52679705d2aab79b7619449af5ecf061c04eca6e6d3",
-  "seqno": 51,
+  "prev": "6b4fa0478b9811702e7feb3c5a3f5da0eb7d61489c17abb42e89bf3cbdb83fee",
+  "seqno": 52,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgI31wEMGcZqXEruZLZnNc0OsJrAvyaQru78mKIAm5FKMKp3BheWxvYWTESpcCM8QgttDogH2Ni60m+LUmeXBdKqt5t2GUSa9ezwYcBOym5tPEIMXUGQn+Nv4GIV9B5Ma/eIMEUW+0VxHVGGIPRgiIsAzpAgHCo3NpZ8RAq7pp9D2jA4OsTxuRJZI2WkNF+aAjvM7TGBCD7WyIm1eIF8OuhpF4/A4hXD7z6fUcp0JPrMND0japZI7H0hMiCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF7hHI1Y7+xAfGdNVH5LwDegVrtauWkQ9qVh7knChzj/o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgI31wEMGcZqXEruZLZnNc0OsJrAvyaQru78mKIAm5FKMKp3BheWxvYWTESpcCNMQga0+gR4uYEXAuf+s8Wj9doOt9YUicF6u0Lom/PL24P+7EIAxAZ8ts8g4mLC2K4U8EOjYWcoiV6+oJoQIE9a0Dxd11AgHCo3NpZ8RANAibHfcBdOHKvHYI/VUzwyxVVIqISdzs3T6VKHlckwj7RUQPT5vZR9XJormQrOS2Xhtr0Gqow8J6SsuQUfRAB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGq2tZ/mvLHaQIIGIA6pbqwe7nwZi6Hi0o2PmKDIxJHto3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
