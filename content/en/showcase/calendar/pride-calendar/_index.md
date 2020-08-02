@@ -11,11 +11,6 @@ outputs:
   - Calendar
 ---
 
-{{< countdown date="Aug 1, 2020 10:00:00" >}}
-  {{< simpleImage url="https://www.hamburg-pride.de/fileadmin/templates/img/logo_hh_pride.jpg">}}
-  ---
-{{</ countdown >}}
-
 Sadly, the LGBTQIA+ community is not yet fully accepted in many parts of the world. To create visibility in societies, different events and celebration dates have been created by and for the community all over the world.
 Now, as many people as possible must know about these days. Therefore, I created and maintain a calendar subscription that can be imported or subscribed to in all modern calendar applications.
 
