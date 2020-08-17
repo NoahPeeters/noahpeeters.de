@@ -144,7 +144,7 @@ isso:
 
 socialOptions:
   email: "mailto:noah@noahpeeters.de"
-  phone: ""
+  phone: "tel:+491718952156"
   facebook: ""
   twitter: "https://twitter.com/noah_peeters"
   github: "https://github.com/NoahPeeters"
@@ -156,7 +156,7 @@ socialOptions:
   tumblr: ""
   linkedin: "https://www.linkedin.com/in/noahpeeters"
   pinterest: ""
-  stack-exchange: ""
+  stack-exchange: "https://stackexchange.com/users/12880236/noah-peeters"
   telegram: "https://t.me/NoahPeeters"
   steam: ""
   weibo: ""
@@ -173,6 +173,10 @@ socialOptions:
   dev-to: ""
   gitea: ""
   google-scholar: ""
+  orcid: "https://orcid.org/0000-0002-0506-923X"
+  xing: "https://www.xing.com/profile/Noah_Peeters"
+  keybase: "https://keybase.io/noahpeeters"
+  applemusic: "https://music.apple.com/profile/noahpeeters"
 
 donationOptions:
   enable: false
