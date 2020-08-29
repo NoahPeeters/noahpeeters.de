@@ -2,7 +2,7 @@
 title: 🏳️‍🌈 Pride Calendar
 type: calendar
 date: 2020-06-29
-description: A calendar of lots of event and celebration days for the LGBTQIA+ community.
+description: A calendar with lots of events and celebration days for the LGBTQIA+ community.
 weight: 1
 pinned: true
 thumb: calendar/512px-Gay_Pride_Flag.png
