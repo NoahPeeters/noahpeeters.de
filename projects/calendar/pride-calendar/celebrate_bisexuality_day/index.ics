@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Celebrate Bisexuality Day
+UID:50b0473e0fe5bd7171de884610ffcee7@noahpeeters.de
+DTSTAMP:20200830T122605Z
+DTSTART;VALUE=DATE:19990923
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendar/pride-calendar/celebrate_bisexuality_day/
+DESCRIPTION:Also referred to as Bisexual Pride Day, CBD, Bisexual Pride, and Bi Visibility Day\nWikipedia
+END:VEVENT
+END:VCALENDAR

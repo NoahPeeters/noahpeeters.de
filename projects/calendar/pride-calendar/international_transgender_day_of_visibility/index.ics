@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 International Transgender Day of Visibility
+UID:d5aaf29699b3da0eb10c81e6b27e0624@noahpeeters.de
+DTSTAMP:20200830T122605Z
+DTSTART;VALUE=DATE:20090331
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendar/pride-calendar/international_transgender_day_of_visibility/
+DESCRIPTION:Celebrated to bring awareness to transgender people and their identities as well as recognize those who helped fight for rights for transgender people.\nWikipedia
+END:VEVENT
+END:VCALENDAR

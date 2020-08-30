@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 World AIDS Day
+UID:f3c96467d0a4d0ae85e26809bd829483@noahpeeters.de
+DTSTAMP:20200830T122605Z
+DTSTART;VALUE=DATE:19881201
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendar/pride-calendar/world_aids_day/
+DESCRIPTION:Recognized in 1988 by the United Nations\nWikipedia
+END:VEVENT
+END:VCALENDAR

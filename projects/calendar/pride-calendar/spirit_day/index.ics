@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Spirit Day
+UID:324b8b53e23eea87e2734745bdf5e5c5@noahpeeters.de
+DTSTAMP:20200830T122605Z
+DTSTART;VALUE=DATE:20101014
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=3TH;
+URL:https://noahpeeters.de/projects/calendar/pride-calendar/spirit_day/
+DESCRIPTION:Support for LGBTQ+ youth who are the victims of bullying, as well as to honor LGBTQ+ victims of bullying-related suicide.\nWikipedia
+END:VEVENT
+END:VCALENDAR

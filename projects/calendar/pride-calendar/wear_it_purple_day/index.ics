@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Wear it Purple Day
+UID:823bc8ae620533f1806c39a063d3c6b2@noahpeeters.de
+DTSTAMP:20200830T122605Z
+DTSTART;VALUE=DATE:20100827
+RRULE:FREQ=YEARLY;BYMONTH=8;BYDAY=-1FR;
+URL:https://noahpeeters.de/projects/calendar/pride-calendar/wear_it_purple_day/
+DESCRIPTION:Awareness day especially for young people, based in Australia.\nWikipedia
+END:VEVENT
+END:VCALENDAR

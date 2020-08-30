@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:Pride Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Lesbian Visibility Day
+UID:88cb93ef6f1f063231bc580ee82a34b6@noahpeeters.de
+DTSTAMP:20200830T122605Z
+DTSTART;VALUE=DATE:20080426
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendar/pride-calendar/lesbian_visibility_day/
+DESCRIPTION:Annual day to celebrate, recognize, and bring visibility to lesbians.
+END:VEVENT
+END:VCALENDAR
