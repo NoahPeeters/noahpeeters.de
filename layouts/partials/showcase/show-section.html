@@ -14,7 +14,7 @@
 
           {{ if .Params.thumb }}
           <a href="{{ .Permalink }}" class="showcase__box--img">
-            <img src="{{ (print "images/" .Params.thumb) | relURL }}" alt="{{ .Title }}">
+            <img src="{{ (.Resources.GetMatch .Params.thumb).Permalink }}" alt="{{ .Title }}">
           </a>
           {{ end }}
 

@@ -8,10 +8,10 @@ meta_image: ""
 themecolor: ""
 
 themeOptions: ["light", "dark", "hacker", "solarized", "kimbie"]
-notAllowedTypesInHome: ["contact", "talks", "about", "showcase", "publication", "presentation", "resume", "calendar"]
-notAllowedTypesInHomeSidebar: ["about", "archive", "showcase", "publication", "presentation", "resume", "calendar"]
-notAllowedTypesInArchive: ["about", "contact", "talks", "showcase", "publication", "presentation", "resume", "calendar"]
-notAllowedTypesInHomeFeed: ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery", "calendar"]
+notAllowedTypesInHome: ["contact", "talks", "about", "projects", "publication", "presentation", "resume", "calendar"]
+notAllowedTypesInHomeSidebar: ["about", "archive", "projects", "publication", "presentation", "resume", "calendar"]
+notAllowedTypesInArchive: ["about", "contact", "talks", "projects", "publication", "presentation", "resume", "calendar"]
+notAllowedTypesInHomeFeed: ["about", "archive", "contact", "talks", "projects", "publication", "presentation", "resume", "gallery", "calendar"]
 
 viewportSize: "normal" # widest, wider, wide, normal, narrow
 enableUiAnimation: true

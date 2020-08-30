@@ -4,10 +4,13 @@ date: 2019-12-10
 description: Make a documentation with hugo zdoc theme!
 weight: 2
 pinned: true
-thumb: appstore/fidspeed_logo.png
+resources:
+- name: logo
+  src: logo.png
+thumb: logo
 ---
 
-![Logo](/images/appstore/fidspeed_logo.png)
+{{< img "logo" "Logo" >}}
 
 FidSpeed is an iOS app to measure the speed of [Fidget Spinners](https://en.wikipedia.org/wiki/Fidget_spinner) which became very popular in 2017.
 

@@ -13,9 +13,9 @@ main:
     name: "Archive"
     url: "archive"
 
-  - identifier: "showcase"
+  - identifier: "projects"
     name: "Projects"
-    url: "showcase"
+    url: "projects"
     weight: 3
 
   - identifier: "publication"
