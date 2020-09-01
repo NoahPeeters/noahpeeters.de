@@ -5,8 +5,8 @@ description: Make a documentation with hugo zdoc theme!
 weight: 2
 pinned: true
 resources:
-- name: logo
-  src: logo.png
+  - name: logo
+    src: logo.png
 thumb: logo
 ---
 

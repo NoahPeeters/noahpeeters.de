@@ -9,8 +9,8 @@ outputs:
   - HTML
   - Calendar
 resources:
-- name: logo
-  src: 512px-Gay_Pride_Flag.png
+  - name: logo
+    src: 512px-Gay_Pride_Flag.png
 thumb: logo
 ---
 
