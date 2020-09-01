@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:🏳️‍🌈 Transgender Day of Remembrance
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Transgender Day of Remembrance
+UID:24586cf4f3287719a4d602169ded6a67@noahpeeters.de
+DTSTAMP:20200901T111630Z
+DTSTART;VALUE=DATE:19991120
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendars/pride-calendar/events/transgender_day_of_remembrance/
+DESCRIPTION:Day to memorialize those who have been murdered as a result of transphobia.\nWikipedia
+END:VEVENT
+END:VCALENDAR

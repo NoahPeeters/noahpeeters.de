@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:🏳️‍🌈 Trans Parent Day
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Trans Parent Day
+UID:c02ae2688e72918a46635923f6a0d4e7@noahpeeters.de
+DTSTAMP:20200901T111630Z
+DTSTART;VALUE=DATE:20140301
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU;
+URL:https://noahpeeters.de/projects/calendars/pride-calendar/events/trans_parent_day/
+DESCRIPTION:A day that celebrates life and the love between transgender parents and their children, and between parents and their transgender children.\nhttp://transparentday.org
+END:VEVENT
+END:VCALENDAR

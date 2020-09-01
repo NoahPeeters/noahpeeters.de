@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:🏳️‍🌈 International Pronouns Day
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 International Pronouns Day
+UID:1a6cd30a9386e910bb2ec5fca100937f@noahpeeters.de
+DTSTAMP:20200901T111630Z
+DTSTART;VALUE=DATE:20181017
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=3WE;
+URL:https://noahpeeters.de/projects/calendars/pride-calendar/events/international_pronouns_day/
+DESCRIPTION:An annual event that seeks to make sharing, respecting and educating about personal pronouns commonplace.\nWikipedia
+END:VEVENT
+END:VCALENDAR

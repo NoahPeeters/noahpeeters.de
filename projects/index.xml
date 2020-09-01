@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Project overview on Noah Peeters</title>
+    <title>Projects overview on Noah Peeters</title>
     <link>https://noahpeeters.de/projects/</link>
-    <description>Recent content in Project overview on Noah Peeters</description>
+    <description>Recent content in Projects overview on Noah Peeters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>noah@noahpeeters.de (Noah Peeters)</managingEditor>
@@ -24,11 +24,11 @@
       
       <item>
         <title>Calendars</title>
-        <link>https://noahpeeters.de/projects/calendar/</link>
+        <link>https://noahpeeters.de/projects/calendars/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
-        <atom:modified>Sun, 30 Aug 2020 12:40:43 +0200</atom:modified>
-        <guid>https://noahpeeters.de/projects/calendar/</guid>
+        <atom:modified>Sun, 30 Aug 2020 13:14:05 +0200</atom:modified>
+        <guid>https://noahpeeters.de/projects/calendars/</guid>
         <description></description>
         
         <dc:creator>Noah Peeters</dc:creator>

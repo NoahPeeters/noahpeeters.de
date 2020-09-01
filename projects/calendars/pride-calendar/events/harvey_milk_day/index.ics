@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:🏳️‍🌈 Harvey Milk Day
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Harvey Milk Day
+UID:2254aaf4757b20d9f5e8a2b4e0e7bb64@noahpeeters.de
+DTSTAMP:20200901T111630Z
+DTSTART;VALUE=DATE:20100522
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendars/pride-calendar/events/harvey_milk_day/
+DESCRIPTION:Celebrated to honor Harvey Milk, assassinated politician, on his birthday. It is celebrated officially in California, Milk&rsquo;s home state.\nWikipedia
+END:VEVENT
+END:VCALENDAR

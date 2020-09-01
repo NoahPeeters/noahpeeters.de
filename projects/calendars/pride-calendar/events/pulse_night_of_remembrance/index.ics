@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:🏳️‍🌈 Pulse Night of Remembrance
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 Pulse Night of Remembrance
+UID:19686c335bb3e2fe138e07c822f05fbb@noahpeeters.de
+DTSTAMP:20200901T111630Z
+DTSTART;VALUE=DATE:20170612
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendars/pride-calendar/events/pulse_night_of_remembrance/
+DESCRIPTION:Annual day of US remembrance for the loss of 49 LGBT men and women in the Pulse Nightclub shooting in Orlando, FL\nWikipedia
+END:VEVENT
+END:VCALENDAR

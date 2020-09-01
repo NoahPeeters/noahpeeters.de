@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noah Peeters//noahpeeters.de Calendar Provider//EN
+NAME:🏳️‍🌈 National Coming Out Day
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:🏳️‍🌈 National Coming Out Day
+UID:983ff23632beef3b75b3faaff342b022@noahpeeters.de
+DTSTAMP:20200901T111630Z
+DTSTART;VALUE=DATE:19881011
+RRULE:FREQ=YEARLY;
+URL:https://noahpeeters.de/projects/calendars/pride-calendar/events/national_coming_out_day/
+DESCRIPTION:National Coming Out Day (NCOD) is an annual LGBT awareness day observed on October 11, to support lesbian, gay, bisexual and transgender (LGBT) people (and sometimes other groups typically grouped within the LGBT community) to &ldquo;coming out of the closet&rdquo;.\nWikipedia
+END:VEVENT
+END:VCALENDAR
