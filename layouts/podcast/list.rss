@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>{{ .Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    <language>de-de</language>
+    <atom:contributor>
+        <atom:name>Noah Peeters</atom:name>
+    </atom:contributor>
+    <itunes:subtitle>{{ .Params.subtitle }}</itunes:subtitle>
+    <itunes:author>Noah Peeters</itunes:author>
+    <itunes:summary>{{ .Params.description }}</itunes:summary>
+    <description>{{ .Params.description }}</description>
+    <itunes:owner>
+        <itunes:name>Noah Peeters</itunes:name>
+        <itunes:email>noah@noahpeeters.de</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>{{ .Params.explicit | default "no" }}</itunes:explicit>
+    {{ $img := $.Page.Resources.GetMatch (( .Params.thumb )) -}}
+    <itunes:image href="{{ $img.Permalink }}" />
+    {{ range .Params.categories -}}
+    <itunes:category text="{{ . }}" />
+    {{ end -}}
+    {{ range where .Pages "IsNode" false -}}
+    <item>
+      <title>{{ .Title }}</title>
+      <itunes:summary>{{ .Params.description }}</itunes:summary>
+      <description>{{ .Params.description }}</description>
+      <link>{{ .Permalink }}</link>
+      {{ $audiofile := .Page.Resources.GetMatch "audiofile" -}}
+      {{ $stat := os.Stat $audiofile.RelPermalink -}}
+      <enclosure url="{{ $audiofile.Permalink }}" type="audio/mpeg" length="{{ $stat.Size }}"></enclosure>
+      <pubDate>{{ dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" .Params.date }}</pubDate>
+      <itunes:author>Noah Peeters</itunes:author>
+      <itunes:duration>{{ .Params.duration }}</itunes:duration>
+      <itunes:explicit>{{ .Params.explicit | default "no" }}</itunes:explicit>
+      <guid>https://noahpeeters.de/{{ .File.UniqueID }}</guid>
+      <content:encoded>
+        <![CDATA[{{ .Content }}]]>
+      </content:encoded>
+    </item>
+    {{ end -}}
+  </channel>
+</rss>

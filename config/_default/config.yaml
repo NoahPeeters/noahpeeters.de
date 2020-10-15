@@ -40,12 +40,24 @@ outputs:
   taxonomyTerm: ["HTML", "RSS", "SearchIndex"]
   taxonomy: ["HTML", "RSS", "SearchIndex"]
 
+mediaTypes:
+  text/X-podcast:
+    suffixes:
+      - rss
+
 outputFormats:
   SearchIndex:
     mediaType: "application/json"
     baseName: "index"
     isPlainText: true
     notAlternative: true
+  Podcast:
+    mediaType: "text/X-podcast"
+    basename: "feed"
+    isPlainText: true
+    notAlternative: false
+    permalinkable: true
+    isHTML: true
 
 taxonomies:
   category: "categories"

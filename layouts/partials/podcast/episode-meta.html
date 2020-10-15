@@ -1,0 +1,19 @@
+<span class="episode__meta">
+    <time class="single__info" title="{{ i18n "tooltip-written" }}">📅&nbsp;{{ .Date.Format (i18n "single-dateformat") }} </time>
+
+    <span>🕒&nbsp;
+        {{ $parts := split .Params.duration ":" }}
+
+        {{ if not (eq (index $parts 0) "00") }}
+            {{ index $parts 0 }}h
+        {{ end }}
+
+        {{ if not (eq (index $parts 1) "00") }}
+            {{ index $parts 1 }}m
+        {{ end }}
+
+        {{ if not (eq (index $parts 2) "00") }}
+            {{ index $parts 2 }}s
+        {{ end }}
+    </span>
+</span>
