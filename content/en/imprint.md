@@ -11,7 +11,7 @@ tags:
 <p> 21502 Geesthacht</p>
 <p> Germany</p>
 <h2 id="m56">Kontaktmöglichkeiten</h2><p><strong>E-Mail-Adresse</strong>: <a href="mailto:noah@noahpeeters.de">noah@noahpeeters.de</a></p>
-<p><strong>Telefon</strong>: +491718952156</p>
+<p><strong>Telefon</strong>: +4917642987761</p>
 <ul class="m-elements"></ul><h2 id="m154">Journalistisch-redaktionelle Angebote</h2><p><strong>Inhaltlich verantwortlich</strong>: Noah Peeters</p>
 <ul class="m-elements"></ul><h2 id="m172">Social Media und andere Onlinepräsenzen</h2><p><strong>Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile</strong>:</p> <p><a href="https://keybase.io/noahpeeters" target="_blank">https://keybase.io/noahpeeters</a></p>
 <p><a href="https://twitter.com/noah_peeters" target="_blank">https://twitter.com/noah_peeters</a></p>
