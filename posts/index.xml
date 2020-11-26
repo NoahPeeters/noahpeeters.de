@@ -22,12 +22,46 @@
 
       
       <item>
+        <title>iOS Apps on Apple Silicon</title>
+        <link>https://noahpeeters.de/posts/apple-silicon/run-any-ios-app/</link>
+        <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+        <author>noah@noahpeeters.de (Noah Peeters)</author>
+        <atom:modified>Thu, 26 Nov 2020 01:19:43 +0100</atom:modified>
+        <guid>https://noahpeeters.de/posts/apple-silicon/run-any-ios-app/</guid>
+        <description>The new Macs with an Apple Silicon chip can run most of the iOS apps which already exist run.
+However, some developers have disabled this for their apps.
+This might be useful for technical reasons if the app is not compatible, but most disabled iOS apps run flawlessly on macOS.
+Using the steps below, these apps can still be installed on iOS.
+Installation steps  Install fswatch. This can be done using brew install fswatch when the package manager brew is installed.</description>
+        
+        <dc:creator>Noah Peeters</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Apple Silicon</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Apple Silicon</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Hello World</title>
-        <link>https://noahpeeters.de/posts/hello-world/</link>
+        <link>https://noahpeeters.de/posts/announcements/hello-world/</link>
         <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
-        <atom:modified>Fri, 03 Jul 2020 22:49:36 +0200</atom:modified>
-        <guid>https://noahpeeters.de/posts/hello-world/</guid>
+        <atom:modified>Thu, 26 Nov 2020 01:19:43 +0100</atom:modified>
+        <guid>https://noahpeeters.de/posts/announcements/hello-world/</guid>
         <description>I just created this website. The main goal is to present me and my projects on the internet.</description>
         
         <dc:creator>Noah Peeters</dc:creator>
