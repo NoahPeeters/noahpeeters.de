@@ -14,7 +14,7 @@
     <managingEditor>noah@noahpeeters.de (Noah Peeters)</managingEditor>
     <webMaster>noah@noahpeeters.de (Noah Peeters)</webMaster>
     <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://noahpeeters.de/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@
       <item>
         <title>Apple Silicon</title>
         <link>https://noahpeeters.de/series/apple-silicon/</link>
-        <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
         
         <guid>https://noahpeeters.de/series/apple-silicon/</guid>
