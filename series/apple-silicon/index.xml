@@ -14,7 +14,7 @@
     <managingEditor>noah@noahpeeters.de (Noah Peeters)</managingEditor>
     <webMaster>noah@noahpeeters.de (Noah Peeters)</webMaster>
     <copyright>&amp;copy;2019 -- {year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://noahpeeters.de/series/apple-silicon/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,11 +23,42 @@
 
       
       <item>
+        <title>Setup Homebrew on Apple Silicon</title>
+        <link>https://noahpeeters.de/posts/apple-silicon/homebrew-setup/</link>
+        <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+        <author>noah@noahpeeters.de (Noah Peeters)</author>
+        <atom:modified>Sat, 28 Nov 2020 03:34:32 +0100</atom:modified>
+        <guid>https://noahpeeters.de/posts/apple-silicon/homebrew-setup/</guid>
+        <description>Homebrew is a popular package manager on macOS to install a variety of command line tools and desktop apps. This means, setting up homebrew correctly is crucial, as it has to make sure that both native ARM and emulated Intel tools are properly installed.
+First of all, homebrew itself runs without any issues so far but will print a warning during usage. However, not all tools homebrew installs are compatible with the new architecture.</description>
+        
+        <dc:creator>Noah Peeters</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Apple Silicon</category>
+            
+          
+        
+        
+        
+          
+            
+              <category>Apple Silicon</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>iOS Apps on Apple Silicon</title>
         <link>https://noahpeeters.de/posts/apple-silicon/run-any-ios-app/</link>
         <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
         <author>noah@noahpeeters.de (Noah Peeters)</author>
-        <atom:modified>Thu, 26 Nov 2020 01:19:43 +0100</atom:modified>
+        <atom:modified>Sat, 28 Nov 2020 03:34:32 +0100</atom:modified>
         <guid>https://noahpeeters.de/posts/apple-silicon/run-any-ios-app/</guid>
         <description>The new Macs with an Apple Silicon chip can run most of the iOS apps which already exist run.
 However, some developers have disabled this for their apps.
