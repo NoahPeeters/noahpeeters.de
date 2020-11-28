@@ -1,6 +1,6 @@
 logoText: Noah Peeters
 logoType: "short" # long, short
-description: "The Zzo theme for Hugo example site."
+description: "Homepage of Noah Peeters"
 custom_css: ["scss/custom.scss"]
 custom_js: []
 useFaviconGenerator: true # https://www.favicon-generator.org/
@@ -91,7 +91,7 @@ updateFrequency: ""
 fullContents: false
 
 # comment
-enableComment: true
+enableComment: false
 disqus_shortname: ""
 commento: false
 

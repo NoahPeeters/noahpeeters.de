@@ -1,11 +1,7 @@
 ---
 title: "iOS Apps on Apple Silicon"
 date: 2020-11-26
-description: "Run any iOS app on Apple Silicon macs"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: false
+description: "Run any iOS app on Apple Silicon Macs"
 series: ["Apple Silicon"]
 tags: ["Apple Silicon"]
 ---
@@ -16,10 +12,10 @@ This might be useful for technical reasons if the app is not compatible, but mos
 
 Using the steps below, these apps can still be installed on iOS.
 
-# Installation steps
+## Installation steps
 
 1. Install `fswatch`. This can be done using `brew install fswatch` when the package manager [brew](https://brew.sh) is installed.
-1. Execute the [script](#script) from the bottom of the page.
+1. Execute the [script]({{< ref "#script" >}}) from the bottom of the page.
 1. Install [Apple Configurator 2](https://apps.apple.com/de/app/apple-configurator-2/id1037126344) and sign in.
 1. Connect an iOS device to your Mac.
 1. In Apple Configurator 2, add the app you want to install using `Actions > Add > Apps ...`.
@@ -29,7 +25,7 @@ Using the steps below, these apps can still be installed on iOS.
 1. The script creates a macOS copy of the app installer in your downloads folder. Simply double click the `.ipa` file to install the app.
 1. Now, you can download another app using the same steps or stop the script.
 
-# Script
+## Script
 
 ```install-ios-apps.sh
 #!/bin/bash

@@ -47,7 +47,6 @@ outputFormats:
     isPlainText: true
     notAlternative: true
 
-
 taxonomies:
   category: "categories"
   tag: "tags"

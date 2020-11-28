@@ -2,10 +2,6 @@
 title: "Hello World"
 date: 2019-12-07
 description: "Hello World"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: false
 series: ["Announcements"]
 tags: []
 ---
