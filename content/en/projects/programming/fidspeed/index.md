@@ -1,7 +1,7 @@
 ---
 title: "FidSpeed"
 date: 2019-12-10
-description: Make a documentation with hugo zdoc theme!
+description: Mobile iOS app to measure the speed of fidget spinners
 weight: 2
 pinned: true
 draft: true

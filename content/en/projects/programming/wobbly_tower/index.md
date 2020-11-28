@@ -1,7 +1,7 @@
 ---
 title: "Wobbly Tower"
 date: 2019-12-10
-description: Make a documentation with hugo zdoc theme!
+description: Mobile iOS game using tetrominos
 weight: 2
 pinned: true
 resources:
