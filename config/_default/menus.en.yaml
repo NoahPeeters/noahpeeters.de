@@ -13,6 +13,10 @@ main:
     name: "Archive"
     url: "archive"
 
+  - parent: "posts"
+    name: "Apple Silicon"
+    url: "tags/apple-silicon"
+
   - identifier: "projects"
     name: "Projects"
     url: "projects"
