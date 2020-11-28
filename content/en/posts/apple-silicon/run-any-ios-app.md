@@ -14,7 +14,7 @@ Using the steps below, these apps can still be installed on iOS.
 
 ## Installation steps
 
-1. Install `fswatch`. This can be done using `brew install fswatch` when the package manager [brew](https://brew.sh) is installed.
+1. Install `fswatch`. This can be done using `brew install fswatch` when the package manager [brew]({{< ref "/homebrew-setup.md" >}}) is installed.
 1. Execute the [script]({{< ref "#script" >}}) from the bottom of the page.
 1. Install [Apple Configurator 2](https://apps.apple.com/de/app/apple-configurator-2/id1037126344) and sign in.
 1. Connect an iOS device to your Mac.
