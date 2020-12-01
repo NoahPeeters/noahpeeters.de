@@ -33,7 +33,7 @@ Just some stats about this website
 What else would you put on the main page of your website?
 
 <!-- Github calendar -->
-<script src="https://unpkg.com/github-calendar@2.2.3/dist/github-calendar.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/github-calendar@2.2.3/dist/github-calendar-responsive.css" />
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 <div class="calendar">Github contributions chart.</div>
 <script>GitHubCalendar(".calendar", "NoahPeeters", { responsive: true });</script>
