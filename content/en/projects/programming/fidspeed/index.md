@@ -11,7 +11,7 @@ resources:
 thumb: logo
 ---
 
-{{< img "logo" "Logo" >}}
+{{< image name="logo" caption="FidSpeed logo" >}}
 
 FidSpeed is an iOS app to measure the speed of [Fidget Spinners](https://en.wikipedia.org/wiki/Fidget_spinner) which became very popular in 2017.
 

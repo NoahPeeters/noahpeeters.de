@@ -8,9 +8,10 @@ resources:
   - name: logo
     src: logo.png
 thumb: logo
+nsfw: true
 ---
 
-{{< img "logo" "Logo" >}}
+{{< image name="logo" caption="Wobbly Tower logo" >}}
 
 Wobbly Tower was my first iOS game project on the AppStore. The goal of the game is to stack the different [tetrominos](https://en.wikipedia.org/wiki/Tetromino) and build a tower.
 
