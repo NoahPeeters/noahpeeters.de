@@ -91,7 +91,7 @@ updateFrequency: ""
 fullContents: false
 
 # comment
-enableComment: false
+enableComment: true
 disqus_shortname: ""
 commento: false
 
@@ -101,10 +101,10 @@ telegram:
   dataLimit: 5
 
 gitment:          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner: ""              # Your GitHub ID
-  repo: ""               # The repo to store comments
-  clientId: ""           # Your client ID
-  clientSecret: ""       # Your client secret
+  owner: "NoahPeeters"              # Your GitHub ID
+  repo: "noahpeeters.de-comments"               # The repo to store comments
+  clientId: "fe415c0ba4bd2cf9b5ae"           # Your client ID
+  clientSecret: "6573726653de52cf7c9f0cb10a5a244c7eee69b1"       # Your client secret
 
 utterances:       # https://utteranc.es/
   owner: ""              # Your GitHub ID
