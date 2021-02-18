@@ -1,7 +1,8 @@
 logoText: Noah Peeters
 logoType: "short" # long, short
 description: "Homepage of Noah Peeters"
-custom_css: ["scss/custom.scss"]
+custom_css:
+  - scss/forms.scss
 custom_js: []
 useFaviconGenerator: true # https://www.favicon-generator.org/
 meta_image: ""
@@ -192,7 +193,9 @@ share:
   - name: "twitter"
 
 footerLinks:
-  - name: "Privacy Policy"
-    link: "/privacy/"
-  - name: "Imprint"
-    link: "/imprint/"
+  - name: Privacy Policy
+    link: /privacy
+  - name: Imprint
+    link: /imprint
+  - name: Digital documents
+    link: /digital-documents
