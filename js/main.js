@@ -1,0 +1,1 @@
+(()=>{var n=class{documentURL(t){return new URL("/"+t,n.baseURL)}documentURLFromInput(t){let r=document.getElementById("document-code").value;return this.documentURL(r)}openDocumentFromInput(t){window.location.href=this.documentURLFromInput(t).href}},e=n;e.baseURL="https://link.noahpeeters.de",e.targetURLSearchParamKey="targetURL";window.DigitalDocumentService=new e;})();
