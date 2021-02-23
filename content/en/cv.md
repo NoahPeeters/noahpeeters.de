@@ -55,6 +55,7 @@ Service and Leadership
 * Leadership of the Nordakademie seminar team, January 2020 to February 2021
 * Chairman of the "Die PARTEI Hochschulgruppe Nordakademie", February 2020 to February 2021
 * Member of the Nordakademie student parliament for research and sustainability, March 2020 to March 2021
+* Voulenteer developer at [Vegan Hacktivists](https://veganhacktivists.org) since January 2021
 
 Memberships
 --------
