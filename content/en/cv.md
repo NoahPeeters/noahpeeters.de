@@ -8,11 +8,11 @@ Computer science student from Germany. Currently working as an iOS Developer. In
 
 Education
 --------
-* **Primary School**, _Silberbergschule_, August 2005 to July 2009
-* **Abitur**, _Otto-Hahn-Gymnasium Geesthacht_, August 2009 to June 2017
-* **Semester Abroad**, _Riga Technical University_, September 2019 to December 2019
-* **B.S. in Applied Computer Science**, _Nordakademie Hochschule der Wirtschaft_, October 2017 to March 2021
-* **B.S. in Electrical Engineering and Information Technologies**, _Christian-Albrechts-Universität zu Kiel_, April 2021 to March 2025 (expected)
+* **Primary School**, [_Silberbergschule_](https://gs-silberberg.de/), August 2005 to July 2009
+* **Abitur**, [_Otto-Hahn-Gymnasium Geesthacht_](http://ohg-geesthacht.de), August 2009 to June 2017
+* **Semester Abroad**, [_Riga Technical University_](https://rtu.lv/en), September 2019 to December 2019
+* **B.S. in Applied Computer Science**, [_Nordakademie Hochschule der Wirtschaft_](https://nordakademie.de), October 2017 to March 2021
+* **B.S. in Electrical Engineering and Information Technologies**, [_Christian-Albrechts-Universität zu Kiel_](https://www.uni-kiel.de/en/), April 2021 to March 2025 (expected)
 
 Scholarships
 --------
@@ -35,9 +35,9 @@ Teachings
 
 Work Experience
 --------
-* **Internship**, _Computacenter AG & Co oHG_, March 2014
-* **Internship**, _expert AG_, November 2015
-* **iOS Developer**, _freenet.de GmbH_, October 2017 to _present_
+* **Internship**, [_Computacenter AG & Co oHG_](https://www.computacenter.com), March 2014
+* **Internship**, [_expert SE_](https://www.expert.de/geesthacht/Footer/Unternehmen/Unser-Unternehmen), November 2015
+* **iOS Developer**, [_freenet.de GmbH_](https://freenet-group.de), October 2017 to _present_
 
 Technical Skills
 --------
@@ -51,14 +51,14 @@ Languages
 
 Service and Leadership
 --------
-* JAV (Youth and apprentice representation) for freenet AG @ Hamburg since November 2019
+* JAV (Youth and apprentice representation) for [freenet AG](https://freenet-group.de) @ Hamburg since November 2019
 * Board member of the student organisation "Studentengemeinschaft Nordakademie e.V.", February 2019 to February 2021
-* Leadership of the Nordakademie seminar team, January 2020 to February 2021
+* Leadership of the [Nordakademie](https://nordakademie.de) seminar team, January 2020 to February 2021
 * Chairman of the "Die PARTEI Hochschulgruppe Nordakademie", February 2020 to February 2021
-* Member of the Nordakademie student parliament for research and sustainability, March 2020 to March 2021
+* Member of the [Nordakademie](https://nordakademie.de) student parliament for research and sustainability, March 2020 to March 2021
 * Voulenteer developer at [Vegan Hacktivists](https://veganhacktivists.org) since January 2021
 
 Memberships
 --------
-* **Fulbright Alumni e.V.**, *The German Fulbright Alumni Association*
-* **Die PARTEI**, *Die Partei für Arbeit, Rechsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative*
+* [**Fulbright Alumni e.V.**](https://fulbright-alumni.de), *The German Fulbright Alumni Association*
+* [**Die PARTEI**](https://www.die-partei.de), *Die Partei für Arbeit, Rechsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative*
