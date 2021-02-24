@@ -9,8 +9,7 @@ shorttitle: "University Paper"
 copyright: "All rights reserved"
 title: "Wie kann CodePush für die Verbreitung von React Native Apps eingesetzt werden?"
 ENTRYTYPE: "misc"
-enableToc: False
-enableWhoami: True
+enableToc: false
 pinned: true
 publishDate: "2018-12-25"
 ---

@@ -8,8 +8,7 @@ shorttitle: "Paper"
 copyright: "All rights reserved"
 title: "Zusammenfassung Oberstufe Physik"
 ENTRYTYPE: "misc"
-enableToc: False
-enableWhoami: True
+enableToc: false
 pinned: true
 publishDate: "2017-08-01"
 ---

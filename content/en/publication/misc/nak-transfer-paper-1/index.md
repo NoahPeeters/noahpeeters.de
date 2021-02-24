@@ -9,8 +9,7 @@ shorttitle: "University Paper"
 copyright: "All rights reserved"
 title: "Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?"
 ENTRYTYPE: "misc"
-enableToc: False
-enableWhoami: True
+enableToc: false
 pinned: true
 publishDate: "2018-07-26"
 ---

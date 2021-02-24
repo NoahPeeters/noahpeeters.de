@@ -8,8 +8,7 @@ shorttitle: "University Paper"
 copyright: "All rights reserved"
 title: "Open Source Software - Wie nehmen Endanwender Open Source Software wahr?"
 ENTRYTYPE: "misc"
-enableToc: False
-enableWhoami: True
+enableToc: false
 pinned: true
 publishDate: "2018-03-11"
 ---

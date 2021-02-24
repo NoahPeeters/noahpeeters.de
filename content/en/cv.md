@@ -26,6 +26,10 @@ Publications
 * [Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?](/publication/misc/nak-transfer-paper-1/)
 * [Wie kann CodePush für die Verbreitung von React Native Apps eingesetzt werden?](/publication/misc/nak-transfer-paper-2/)
 * [Google Analytics for mobile apps shutdown: Analysis of the implication of switching to Google Firebase.](/publication/misc/nak-transfer-paper-3/)
+* [Comparison of package managers for iOS programming](/publication/misc/nak-transfer-paper-4/)
+* [How can a subscription based business model be extended with mobile app subscriptions?](/publication/misc/nak-transfer-paper-5/)
+* [Analyse der Verwendung von Datentypen in Swift Projekten](/publication/misc/nak-transfer-paper-6/)
+* [Nutzung abstrakter Datentypen zur Verbesserung der Codequalität](/publication/thesis/bs-applied-computer-science/)
 
 Teachings
 --------

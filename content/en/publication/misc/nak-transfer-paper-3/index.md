@@ -9,8 +9,7 @@ shorttitle: "University Paper"
 copyright: "All rights reserved"
 title: "Google Analytics for mobile apps shutdown: Analysis of the implication of switching to Google Firebase."
 ENTRYTYPE: "misc"
-enableToc: False
-enableWhoami: True
+enableToc: false
 pinned: true
 publishDate: "2019-09-16"
 ---
