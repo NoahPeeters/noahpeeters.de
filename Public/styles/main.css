@@ -1,0 +1,18 @@
+/*.header, .footer {*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+/**/
+/*.site-header__title {*/
+/*    font-size: 44pt;*/
+/*}*/
+/**/
+/**/
+/**/
+/*.footer .footer__social .social a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+.footer .footer__social .social a svg, .footer .footer__social .social a img {
+    width: 32px;
+}
