@@ -11,9 +11,12 @@ let package = Package(
         .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0")
     ],
     targets: [
+        .target(name: "XMLBuilder"),
+        .target(name: "HTMLBuilder", dependencies: ["XMLBuilder"]),
         .target(
             name: "App",
             dependencies: [
+                "HTMLBuilder",
                 .product(name: "Vapor", package: "vapor"),
                 .product(name: "Leaf", package: "leaf")
             ],
