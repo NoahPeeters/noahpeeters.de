@@ -14,17 +14,17 @@
 #
 version: '3.7'
 
-x-shared_environment: &shared_environment
-  LOG_LEVEL: ${LOG_LEVEL:-debug}
-
 services:
-  app:
-    image: noahpeeters.de:latest
+  backend:
     build:
-      context: .
+      context: Sources/Backend
     environment:
-      <<: *shared_environment
+      LOG_LEVEL: ${LOG_LEVEL:-debug}
+    ports:
+      - '8081:8081'
+    command: ["serve", "--env", "production", "--hostname", "0.0.0.0", "--port", "8080"]
+  frontend:
+    build:
+      context: Sources/Frontend
     ports:
       - '8080:8080'
-    # user: '0' # uncomment to run as root for testing purposes even though Dockerfile defines 'vapor' user.
-    command: ["serve", "--env", "production", "--hostname", "0.0.0.0", "--port", "8080"]

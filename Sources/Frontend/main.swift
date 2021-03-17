@@ -1,0 +1,3 @@
+import FrontendLib
+
+FrontendRoot.main()
