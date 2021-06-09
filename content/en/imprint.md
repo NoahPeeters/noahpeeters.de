@@ -7,8 +7,8 @@ tags:
 ---
 <h2 id="m46">Diensteanbieter</h2>
 <p> Noah Peeters</p>
-<p> Wilmersdorfer Straße 1</p>
-<p> 21502 Geesthacht</p>
+<p> Elisabethstraße 86</p>
+<p> 24143 Kiel</p>
 <p> Germany</p>
 <h2 id="m56">Kontaktmöglichkeiten</h2><p><strong>E-Mail-Adresse</strong>: <a href="mailto:noah@noahpeeters.de">noah@noahpeeters.de</a></p>
 <p><strong>Telefon</strong>: +4917642987761</p>
