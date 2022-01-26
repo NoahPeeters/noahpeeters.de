@@ -1,0 +1,35 @@
+BEGIN:VEVENT
+SUMMARY:{{ .Title }}
+UID:{{ .File.UniqueID }}@noahpeeters.de
+DTSTAMP:{{ if (eq hugo.Environment "production") }}{{ dateFormat "20060102T150405Z" .Lastmod }}{{ else }}{{ dateFormat "20060102T150405Z" now }}{{ end }}
+{{ $allday := (eq .Params.time.allday true) -}}
+{{ if $allday -}}
+    DTSTART;VALUE=DATE:{{ dateFormat "20060102" .Params.time.start }}
+{{ else -}}
+    DTSTART:{{ dateFormat "20060102T150405Z" .Params.time.start }}
+{{ end -}}
+
+{{ with .Params.time.end -}}
+{{ if $allday -}}
+    DTEND;VALUE=DATE:{{ dateFormat "20060102" . }}
+{{ else -}}
+    DTEND:{{ dateFormat "20060102T150405Z" . }}
+{{ end -}}
+{{ end -}}
+
+{{ with .Params.time.repeat -}}
+    RRULE:
+    {{- with .frequency }}FREQ={{ upper . }};{{ end }}
+    {{- with .interval }}INTERVAL={{ upper . }};{{ end }}
+    {{- with .count }}COUNT={{ upper . }};{{ end }}
+    {{- with .month }}BYMONTH={{ upper . }};{{ end }}
+    {{- with .monthday }}BYMONTHDAY={{ upper . }};{{ end }}
+    {{- with .day }}BYDAY={{ upper . }};{{ end }}
+{{ end -}}
+
+{{ with .Params.location -}}
+    LOCATION:{{ . }}
+{{ end -}}
+URL:{{ .Permalink }}
+DESCRIPTION:{{ replace (trim .Plain "\n") "\n" "\\n" }}
+END:VEVENT

@@ -1,0 +1,22 @@
+{{ $img := $.Page.Resources.GetMatch (.Get "name")}}
+
+
+<figure {{ with .Get "class" }}class="{{ . }}" {{ end }}>
+  {{ with .Get "link"}}<a href="{{ . }}">{{ end }}
+
+    <img src="{{ $img.RelPermalink }}" {{ if or (.Get "alt" ) (.Get "caption" ) }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} style="width:{{ .Get " width" }};height:{{.Get "height"}};" />
+
+    {{ if .Get "link"}}
+  </a>{{ end }}
+  {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+  <figcaption style="text-align: {{ with .Get " position" }}{{ . }};{{ end }}">{{ if isset .Params "title" }}
+    <strong>{{ .Get "title" }}</strong>:{{ end }}
+    {{ if or (.Get "caption") (.Get "attr")}}
+    {{ .Get "caption" }}
+    {{ with .Get "attrlink"}}<a href="{{ . }}"> {{ end }}
+      {{ .Get "attr" }}
+      {{ if .Get "attrlink"}}</a> {{ end }}
+    {{ end }}
+  </figcaption>
+  {{ end }}
+</figure>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body>
+  <article>
+    <header>
+      {{ partial "breadcrumb" . }}
+      <h1>{{ .Title }}</h1>
+      {{ partial "article__meta" . }}
+
+      {{ with .Params.links }}
+      <div class="article__meta">
+        {{ range . }}
+        <a href="{{ .link }}" title="{{ .name }}" class="button button__micro" data-color="default"
+          data-variant="contained" target="_blank" rel="noreferrer">[{{ .name }}]</a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+    </header>
+    {{ .Content }}
+  </article>
+
+  {{ partial "footer" }}
+</body>
+
+</html>

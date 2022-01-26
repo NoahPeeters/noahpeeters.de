@@ -1,0 +1,5 @@
+{{ if .Date }}
+<div class="article__meta">
+  {{ .Date.Format "02.01.2006" }}{{ if .Params.authors }}{{ range .Params.authors }}, {{ . }}{{ end }}{{ end }}
+</div>
+{{ end }}

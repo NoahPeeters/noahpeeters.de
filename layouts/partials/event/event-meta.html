@@ -1,0 +1,77 @@
+<span class="event__meta">
+    <span>📅&nbsp;
+        {{ $allday := (eq .Params.time.allday true) -}}
+        {{ if $allday -}}
+            {{ dateFormat "02 Jan, 2006" .Params.time.start }}
+        {{ else }}
+            {{ dateFormat "02 Jan, 2006 03:04 PM" .Params.time.start }}
+        {{ end }}
+
+        {{ $startDateString := dateFormat "20060201" .Params.time.start -}}
+        {{ with .Params.time.end -}}
+            {{ $dateIsEqual := (eq $startDateString (dateFormat "20060201" .)) }}
+            {{ if $allday -}}
+                {{if not $dateIsEqual }}
+                &ndash; {{ dateFormat "02 Jan, 2006" . }}
+                {{ end }}
+            {{ else }}
+                {{if $dateIsEqual }}
+                &ndash; {{ dateFormat "03:04 PM" . }}
+                {{ else }}
+                &ndash; {{ dateFormat "02 Jan, 2006 03:04 PM" . }}
+                {{ end -}}
+            {{ end -}}
+        {{ end -}}
+    </span>
+
+    {{- with .Params.time.repeat -}}
+    <span>🔁&nbsp;Repeats Every {{ with .interval }}{{ . }}{{ end }}
+            {{ $freqPlural := (and ( isset . "interval" ) (not (eq .interval 1))) }}
+
+            {{ if (eq .frequency "yearly")}}
+                {{ if $freqPlural }}Years{{ else }}Year{{ end }}
+            {{ end }}
+
+            {{ $month := .month }}
+
+            {{- with .day -}}
+                on the
+
+                {{ if hasPrefix . "1" }}
+                    first
+                {{else if hasPrefix . "2"}}
+                    second
+                {{else if hasPrefix . "3"}}
+                    third
+                {{else if hasPrefix . "4"}}
+                    fourth
+                {{else if hasPrefix . "5"}}
+                    fifth
+                {{else if hasPrefix . "-1"}}
+                    last
+                {{ end }}
+
+                {{ if strings.HasSuffix (lower .) "mo" }}
+                    Monday
+                {{else if strings.HasSuffix (lower .) "tu"}}
+                    Tuesday
+                {{else if strings.HasSuffix (lower .) "we"}}
+                    Wednesday
+                {{else if strings.HasSuffix (lower .) "th"}}
+                    Thursday
+                {{else if strings.HasSuffix (lower .) "fr"}}
+                    Friday
+                {{else if strings.HasSuffix (lower .) "sa"}}
+                    Saturday
+                {{else if strings.HasSuffix (lower .) "su"}}
+                    Sunday
+                {{ end }}
+
+                of
+
+                {{ $monthNames := (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") }}
+                {{ index $monthNames (sub $month 1) }}
+            {{ end }}
+    </span>
+    {{ end }}
+</span>

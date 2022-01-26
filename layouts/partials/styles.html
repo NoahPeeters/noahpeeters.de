@@ -1,0 +1,12 @@
+{{ if .Site.Params.custom_css }}
+{{ range .Site.Params.custom_css }}
+{{ $custom_template := resources.Get . }}
+{{ if $custom_template }}
+{{ $custom_style := $custom_template | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $custom_style.RelPermalink }}">
+{{ end }}
+{{ end }}
+{{ end }}
+{{ $js := resources.Get "main.ts" | js.Build (dict "minify" hugo.IsProduction) }}
+<script src="{{ $js.RelPermalink }}"></script>
+<script data-goatcounter="https://noahpeeters.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

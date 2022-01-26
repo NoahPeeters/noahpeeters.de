@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body>
+  <article>
+    <header>
+      {{ partial "breadcrumb" . }}
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ .Content }}
+
+    {{ $paginator := .Paginator }}
+
+    {{ range $paginator.Pages }}
+    <div class="list__item">
+      <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
+      {{ partial "article__meta" . }}
+
+      {{ .Params.description }}
+    </div>
+    {{ end }}
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <div class="pagination__container">
+
+      {{if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="pagination__link">
+        &larr; Next
+      </a>
+      {{ end }}
+
+      {{ range $paginator.Pagers }}
+      {{ if eq .PageNumber $paginator.PageNumber }}
+      <span class="pagination__link">{{ .PageNumber }}</span>
+      {{ else }}
+      <a href="{{ .URL }}" class="pagination__link">
+        {{ .PageNumber }}
+      </a>
+      {{ end }}
+      {{ end }}
+
+      {{if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="pagination__link">
+        Prev &rarr;
+      </a>
+      {{ end }}
+
+
+      {{ end }}
+
+    </div>
+
+  </article>
+
+  {{ partial "footer" }}
+</body>
+
+</html>

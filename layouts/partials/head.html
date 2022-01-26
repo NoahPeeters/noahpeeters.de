@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Noah Peeters">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:site_name" content="Noah Peeters">
+{{ if .Params.description }}
+<meta name="description" content="{{ .Params.description }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta name="twitter:description" content="{{ .Params.description }}">
+{{ end }}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:creator" content="Noah Peeters">
+<title>{{ .Title }}</title>
+{{ partial "styles" . }}

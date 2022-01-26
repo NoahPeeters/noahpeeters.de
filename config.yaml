@@ -1,0 +1,19 @@
+baseURL: 'https://noahpeeters.de/'
+languageCode: 'en-us'
+title: 'Noah Peeters'
+
+enableEmoji: true
+
+params:
+  custom_css:
+    - main.scss
+
+markup:
+  defaultMarkdownHandler: 'blackFriday'
+  blackFriday:
+    hrefTargetBlank: true
+    FootnoteReturnLinkContents: "↩"
+
+taxonomies:
+
+paginate: 8
