@@ -5,7 +5,7 @@ resources:
   - name: logo
     src: logo.webp
 links:
- - name: Web:
+ - name: Web
    link: https://www.freenet-funk.de
  - name: Download (iOS)
    link: https://apps.apple.com/de/app/freenet-funk-deine-tarif-app/id1457849693
