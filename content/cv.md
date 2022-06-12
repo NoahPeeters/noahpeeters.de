@@ -60,7 +60,6 @@ Service and Leadership
 * Member of the [Nordakademie](https://nordakademie.de) student parliament for research and sustainability, March 2020 to March 2021
 * Board member of the [BUNDjugend Schleswig-Holstein](https://www.bundjugend-sh.de), since December 2021
 * Board member of the [BUND Schleswig-Holstein](https://www.bundjugend-sh.de), since January 2021
-* 
 
 Memberships
 --------
