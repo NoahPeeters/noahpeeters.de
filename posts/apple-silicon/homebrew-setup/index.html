@@ -1,83 +1,17 @@
-<!doctype html><html>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=author content="Noah Peeters">
-<meta property="og:url" content="https://noahpeeters.de/posts/apple-silicon/homebrew-setup/">
-<meta property="og:title" content="Setup Homebrew on Apple Silicon">
-<meta property="og:site_name" content="Noah Peeters">
-<meta name=description content="Install a native ARM and an Intel version of homebrew on an Apple Silicon Mac">
-<meta property="og:description" content="Install a native ARM and an Intel version of homebrew on an Apple Silicon Mac">
-<meta name=twitter:description content="Install a native ARM and an Intel version of homebrew on an Apple Silicon Mac">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Setup Homebrew on Apple Silicon">
-<meta name=twitter:creator content="Noah Peeters">
-<title>Setup Homebrew on Apple Silicon</title>
-<link rel=stylesheet href=/main.min.css>
-<script src=/main.js></script>
-<script data-goatcounter=https://noahpeeters.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
-</head>
-<body>
-<article>
-<header>
-<p class=breadcrumbs>
-<span>
-<a href=https://noahpeeters.de/ class=capitalize>Noah Peeters</a> /
-<span>
-<a href=https://noahpeeters.de/posts/ class=capitalize>Blog</a> /
-<span>
-<span>Setup Homebrew on Apple Silicon</span>
-</span>
-</p>
-<h1>Setup Homebrew on Apple Silicon</h1>
-<div class=article__meta>
-28.11.2020
-</div>
-</header>
-<p><a href=https://brew.sh target=_blank>Homebrew</a> is a popular package manager on macOS to install a variety of command line tools and desktop apps. This means, setting up homebrew correctly is crucial, as it has to make sure that both native ARM and emulated Intel tools are properly installed.</p>
-<p>First of all, homebrew itself runs without any issues so far but will print a warning during usage. However, not all tools homebrew installs are compatible with the new architecture. To further complicate matters, homebrew does not allow mixing ARM and Intel tools.</p>
-<h2 id=installation>Installation</h2>
-<p>The goal is to have a setup which allows to install all compatible tools natively and install the rest as an Intel version which will be executed with Rosetta 2. For that we will have to create two homebrew installataions &ndash; a native one and an Intel one.</p>
-<h3 id=install-an-intel-homebrew>Install an Intel homebrew</h3>
-<p>Installing an Intel homebrew is straight forward. We can simply use the installation script from the <a href=https://brew.sh target=_blank>homepage</a> and add the prefix <code>arch --x86_64</code> to run it using Rosetta:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>arch --x86_64 /bin/bash -c <span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style=color:#66d9ef>)</span><span style=color:#e6db74>&#34;</span></code></pre></div>
-<h3 id=install-an-arm-homebrew>Install an ARM homebrew</h3>
-<p>Now, we have to follow the <a href=https://docs.brew.sh/Installation#untar-anywhere target=_blank>alternative installation instructions</a>. Homebrew recommends installing it to <code>/opt/homebrew</code> on macOS ARM, which can be achieved using the following commands:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cd ~/Downloads
-mkdir homebrew
-curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip <span style=color:#ae81ff>1</span> -C homebrew
-sudo mv homebrew /opt/homebrew</code></pre></div>
-<h2 id=setting-up-the-environment>Setting up the environment</h2>
-<p>To make both installations work, we need to setup the environment correctly. All of the following should be added to your shell. If you did not change your configuration, you have to add everything to the end of <code>~/.zshrc</code>.</p>
-<p>First, we have to add the ARM homebrew installation to the <code>PATH</code> environment variable. This will make sure both tools installed using ARM brew and Intel brew are available while ARM brew tools have a higher priority:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> -d <span style=color:#e6db74>&#34;/opt/homebrew/bin&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
-    export PATH<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/opt/homebrew/bin:</span>$PATH<span style=color:#e6db74>&#34;</span>
-<span style=color:#66d9ef>fi</span></code></pre></div>
-<p>As we now have two homebrew installations, we need a way to differentiate the two. For that, we simply can add the following:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#66d9ef>function</span> ibrew<span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
-   arch --x86_64 /usr/local/bin/brew $@
-<span style=color:#f92672>}</span></code></pre></div>
-<p>Now we can install ARM compatible software using <code>brew install &lt;name></code> and the rest using <code>ibrew install &lt;name></code>.</p>
-<h2 id=best-practice>Best practice</h2>
-<p>From that point on, one has to decide between <code>brew</code> and <code>ibrew</code> when installing new software. The follwing are my recommendations:</p>
-<ol>
-<li>For casks always use <code>brew</code>. Casks are precompiled so it does not make a difference and if one ever wants to uninstall the workaround Intel brew, one does not have to reinstall the casks.</li>
-<li>First try to install new software using <code>brew</code>. If the software is compatible, it does not have to use Rosetta which will make the software faster.
-<ul>
-<li><a href=https://github.com/Homebrew/brew/issues/7857 target=_blank>This post</a> keeps track of which core formulae currently work, although this is not always up to date. I was able to install quite a few tools which are not checked in the post, yet.</li>
-</ul></li>
-<li>If the software is not compatible, you have to use <code>ibrew</code>. Some packages might still not work. In that case your out of luck. You can try to install them manually or have to wait for an upgrade.</li>
-<li>If other software relies on absolut paths and expect a software in <code>/usr/local/bin</code> (the default path for Intel brew), I would simply install the software with <code>ibrew</code> even if it is compatible. Additionally, I would installed it with <code>brew</code> as well.</li>
-</ol>
-</article>
-<footer>
-<hr>
-<div class=legal_links>
-<a href=/privacy>Privacy Policy</a>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Noah Peeters"><meta property="og:url" content="https://noahpeeters.de/posts/apple-silicon/homebrew-setup/"><meta property="og:title" content="Setup Homebrew on Apple Silicon"><meta property="og:site_name" content="Noah Peeters"><meta name=description content="Install a native ARM and an Intel version of homebrew on an Apple Silicon Mac"><meta property="og:description" content="Install a native ARM and an Intel version of homebrew on an Apple Silicon Mac"><meta name=twitter:description content="Install a native ARM and an Intel version of homebrew on an Apple Silicon Mac"><meta name=twitter:card content="summary"><meta name=twitter:title content="Setup Homebrew on Apple Silicon"><meta name=twitter:creator content="Noah Peeters"><title>Setup Homebrew on Apple Silicon</title><link rel=stylesheet href=/main.min.css><script src=/main.js></script>
+<script data-goatcounter=https://noahpeeters.goatcounter.com/count async src=//gc.zgo.at/count.js></script></head><body><article><header><p class=breadcrumbs><span><a href=https://noahpeeters.de/ class=capitalize>Noah Peeters</a> /
+<span><a href=https://noahpeeters.de/posts/ class=capitalize>Blog</a> /
+<span><span>Setup Homebrew on Apple Silicon</span></span></p><h1>Setup Homebrew on Apple Silicon</h1><div class=article__meta>28.11.2020</div></header><p><a href=https://brew.sh>Homebrew</a> is a popular package manager on macOS to install a variety of command line tools and desktop apps. This means, setting up homebrew correctly is crucial, as it has to make sure that both native ARM and emulated Intel tools are properly installed.</p><p>First of all, homebrew itself runs without any issues so far but will print a warning during usage. However, not all tools homebrew installs are compatible with the new architecture. To further complicate matters, homebrew does not allow mixing ARM and Intel tools.</p><h2 id=installation>Installation</h2><p>The goal is to have a setup which allows to install all compatible tools natively and install the rest as an Intel version which will be executed with Rosetta 2. For that we will have to create two homebrew installataions &ndash; a native one and an Intel one.</p><h3 id=install-an-intel-homebrew>Install an Intel homebrew</h3><p>Installing an Intel homebrew is straight forward. We can simply use the installation script from the <a href=https://brew.sh>homepage</a> and add the prefix <code>arch --x86_64</code> to run it using Rosetta:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>arch --x86_64 /bin/bash -c <span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style=color:#66d9ef>)</span><span style=color:#e6db74>&#34;</span>
+</span></span></code></pre></div><h3 id=install-an-arm-homebrew>Install an ARM homebrew</h3><p>Now, we have to follow the <a href=https://docs.brew.sh/Installation#untar-anywhere>alternative installation instructions</a>. Homebrew recommends installing it to <code>/opt/homebrew</code> on macOS ARM, which can be achieved using the following commands:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cd ~/Downloads
+</span></span><span style=display:flex><span>mkdir homebrew
+</span></span><span style=display:flex><span>curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip <span style=color:#ae81ff>1</span> -C homebrew
+</span></span><span style=display:flex><span>sudo mv homebrew /opt/homebrew
+</span></span></code></pre></div><h2 id=setting-up-the-environment>Setting up the environment</h2><p>To make both installations work, we need to setup the environment correctly. All of the following should be added to your shell. If you did not change your configuration, you have to add everything to the end of <code>~/.zshrc</code>.</p><p>First, we have to add the ARM homebrew installation to the <code>PATH</code> environment variable. This will make sure both tools installed using ARM brew and Intel brew are available while ARM brew tools have a higher priority:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> -d <span style=color:#e6db74>&#34;/opt/homebrew/bin&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>    export PATH<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/opt/homebrew/bin:</span>$PATH<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fi</span>
+</span></span></code></pre></div><p>As we now have two homebrew installations, we need a way to differentiate the two. For that, we simply can add the following:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>function</span> ibrew<span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>   arch --x86_64 /usr/local/bin/brew $@
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><p>Now we can install ARM compatible software using <code>brew install &lt;name></code> and the rest using <code>ibrew install &lt;name></code>.</p><h2 id=best-practice>Best practice</h2><p>From that point on, one has to decide between <code>brew</code> and <code>ibrew</code> when installing new software. The follwing are my recommendations:</p><ol><li>For casks always use <code>brew</code>. Casks are precompiled so it does not make a difference and if one ever wants to uninstall the workaround Intel brew, one does not have to reinstall the casks.</li><li>First try to install new software using <code>brew</code>. If the software is compatible, it does not have to use Rosetta which will make the software faster.<ul><li><a href=https://github.com/Homebrew/brew/issues/7857>This post</a> keeps track of which core formulae currently work, although this is not always up to date. I was able to install quite a few tools which are not checked in the post, yet.</li></ul></li><li>If the software is not compatible, you have to use <code>ibrew</code>. Some packages might still not work. In that case your out of luck. You can try to install them manually or have to wait for an upgrade.</li><li>If other software relies on absolut paths and expect a software in <code>/usr/local/bin</code> (the default path for Intel brew), I would simply install the software with <code>ibrew</code> even if it is compatible. Additionally, I would installed it with <code>brew</code> as well.</li></ol></article><footer><hr><div class=legal_links><a href=/privacy>Privacy Policy</a>
 <a href=/imprint>Imprint</a>
-<a href=/digital-documents>Digital Documents</a>
-</div>
-©2019 — 2022, Noah Peeters, All Rights Reserved
-</footer>
-</body>
-</html>
+<a href=/digital-documents>Digital Documents</a></div>©2019 — 2022, Noah Peeters, All Rights Reserved</footer></body></html>

@@ -1,88 +1,28 @@
-<!doctype html><html>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=author content="Noah Peeters">
-<meta property="og:url" content="https://noahpeeters.de/posts/apple-silicon/run-any-ios-app/">
-<meta property="og:title" content="iOS Apps on Apple Silicon">
-<meta property="og:site_name" content="Noah Peeters">
-<meta name=description content="Run any iOS app on Apple Silicon Macs">
-<meta property="og:description" content="Run any iOS app on Apple Silicon Macs">
-<meta name=twitter:description content="Run any iOS app on Apple Silicon Macs">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="iOS Apps on Apple Silicon">
-<meta name=twitter:creator content="Noah Peeters">
-<title>iOS Apps on Apple Silicon</title>
-<link rel=stylesheet href=/main.min.css>
-<script src=/main.js></script>
-<script data-goatcounter=https://noahpeeters.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
-</head>
-<body>
-<article>
-<header>
-<p class=breadcrumbs>
-<span>
-<a href=https://noahpeeters.de/ class=capitalize>Noah Peeters</a> /
-<span>
-<a href=https://noahpeeters.de/posts/ class=capitalize>Blog</a> /
-<span>
-<span>iOS Apps on Apple Silicon</span>
-</span>
-</p>
-<h1>iOS Apps on Apple Silicon</h1>
-<div class=article__meta>
-26.11.2020
-</div>
-</header>
-<p>The new Macs with an Apple Silicon chip can run most of the iOS apps which already exist run.
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Noah Peeters"><meta property="og:url" content="https://noahpeeters.de/posts/apple-silicon/run-any-ios-app/"><meta property="og:title" content="iOS Apps on Apple Silicon"><meta property="og:site_name" content="Noah Peeters"><meta name=description content="Run any iOS app on Apple Silicon Macs"><meta property="og:description" content="Run any iOS app on Apple Silicon Macs"><meta name=twitter:description content="Run any iOS app on Apple Silicon Macs"><meta name=twitter:card content="summary"><meta name=twitter:title content="iOS Apps on Apple Silicon"><meta name=twitter:creator content="Noah Peeters"><title>iOS Apps on Apple Silicon</title><link rel=stylesheet href=/main.min.css><script src=/main.js></script>
+<script data-goatcounter=https://noahpeeters.goatcounter.com/count async src=//gc.zgo.at/count.js></script></head><body><article><header><p class=breadcrumbs><span><a href=https://noahpeeters.de/ class=capitalize>Noah Peeters</a> /
+<span><a href=https://noahpeeters.de/posts/ class=capitalize>Blog</a> /
+<span><span>iOS Apps on Apple Silicon</span></span></p><h1>iOS Apps on Apple Silicon</h1><div class=article__meta>26.11.2020</div></header><p>The new Macs with an Apple Silicon chip can run most of the iOS apps which already exist run.
 However, some developers have disabled this for their apps.
-This might be useful for technical reasons if the app is not compatible, but most disabled iOS apps run flawlessly on macOS.</p>
-<p>Using the steps below, these apps can still be installed on iOS.</p>
-<h2 id=installation-steps>Installation steps</h2>
-<ol>
-<li>Install <code>fswatch</code>. This can be done using <code>brew install fswatch</code> when the package manager <a href=https://noahpeeters.de/posts/apple-silicon/homebrew-setup/ target=_blank>brew</a> is installed.</li>
-<li>Execute the <a href=#script target=_blank>script</a> from the bottom of the page.</li>
-<li>Install <a href=https://apps.apple.com/de/app/apple-configurator-2/id1037126344 target=_blank>Apple Configurator 2</a> and sign in.</li>
-<li>Connect an iOS device to your Mac.</li>
-<li>In Apple Configurator 2, add the app you want to install using <code>Actions > Add > Apps ...</code>.</li>
-<li>Wait until Apple Configurator 2 downloaded the app.
-<ol>
-<li>If you already have the app installed on your iOS device, you will get a prompt asking you what you want to do. Select <code>Stop</code>.</li>
-<li>If you don&rsquo;t have the app installed, the app will be installed on your iOS device. You can delete it afterward.</li>
-</ol></li>
-<li>The script creates a macOS copy of the app installer in your downloads folder. Simply double click the <code>.ipa</code> file to install the app.</li>
-<li>Now, you can download another app using the same steps or stop the script.</li>
-</ol>
-<h2 id=script>Script</h2>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-install-ios-apps.sh data-lang=install-ios-apps.sh><span style=color:#75715e>#!/bin/bash
-</span><span style=color:#75715e></span>WATCH_FOLDER<span style=color:#f92672>=</span>~/Library/Group<span style=color:#ae81ff>\ </span>Containers/K36BKF7T3D.group.com.apple.configurator/Library/Caches/Assets
-export EXPORT_FOLDER<span style=color:#f92672>=</span>~/Downloads
-
-<span style=color:#66d9ef>function</span> handleIPA<span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
-    <span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> *.ipa <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
-        <span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> -f <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
-            IPA_NAME<span style=color:#f92672>=</span><span style=color:#e6db74>`</span>basename <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span><span style=color:#e6db74>`</span>
-            EXPORT_PATH<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$EXPORT_FOLDER<span style=color:#e6db74>/</span>$IPA_NAME<span style=color:#e6db74>&#34;</span>
-            cp <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#e6db74>&#34;</span>$EXPORT_PATH<span style=color:#e6db74>&#34;</span>
-            xattr -cr <span style=color:#e6db74>&#34;</span>$EXPORT_PATH<span style=color:#e6db74>&#34;</span>
-            echo <span style=color:#e6db74>&#34;Downloaded </span>$EXPORT_PATH<span style=color:#e6db74>&#34;</span>
-        <span style=color:#66d9ef>fi</span>
-    <span style=color:#66d9ef>fi</span>
-<span style=color:#f92672>}</span>
-
-export -f handleIPA
-
-echo <span style=color:#e6db74>&#34;Please download the app using Apple Configurator&#34;</span>
-fswatch -0 <span style=color:#e6db74>&#34;</span>$WATCH_FOLDER<span style=color:#e6db74>&#34;</span> | xargs -0 -n <span style=color:#ae81ff>1</span> -I % bash -c <span style=color:#e6db74>&#39;handleIPA &#34;%&#34;&#39;</span></code></pre></div>
-</article>
-<footer>
-<hr>
-<div class=legal_links>
-<a href=/privacy>Privacy Policy</a>
+This might be useful for technical reasons if the app is not compatible, but most disabled iOS apps run flawlessly on macOS.</p><p>Using the steps below, these apps can still be installed on iOS.</p><h2 id=installation-steps>Installation steps</h2><ol><li>Install <code>fswatch</code>. This can be done using <code>brew install fswatch</code> when the package manager <a href=https://noahpeeters.de/posts/apple-silicon/homebrew-setup/>brew</a> is installed.</li><li>Execute the <a href=#script>script</a> from the bottom of the page.</li><li>Install <a href=https://apps.apple.com/de/app/apple-configurator-2/id1037126344>Apple Configurator 2</a> and sign in.</li><li>Connect an iOS device to your Mac.</li><li>In Apple Configurator 2, add the app you want to install using <code>Actions > Add > Apps ...</code>.</li><li>Wait until Apple Configurator 2 downloaded the app.<ol><li>If you already have the app installed on your iOS device, you will get a prompt asking you what you want to do. Select <code>Stop</code>.</li><li>If you don&rsquo;t have the app installed, the app will be installed on your iOS device. You can delete it afterward.</li></ol></li><li>The script creates a macOS copy of the app installer in your downloads folder. Simply double click the <code>.ipa</code> file to install the app.</li><li>Now, you can download another app using the same steps or stop the script.</li></ol><h2 id=script>Script</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-install-ios-apps.sh data-lang=install-ios-apps.sh><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>WATCH_FOLDER<span style=color:#f92672>=</span>~/Library/Group<span style=color:#ae81ff>\ </span>Containers/K36BKF7T3D.group.com.apple.configurator/Library/Caches/Assets
+</span></span><span style=display:flex><span>export EXPORT_FOLDER<span style=color:#f92672>=</span>~/Downloads
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> handleIPA<span style=color:#f92672>()</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> <span style=color:#f92672>[[</span> <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>==</span> *.ipa <span style=color:#f92672>]]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> <span style=color:#f92672>[</span> -f <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#f92672>]</span>; <span style=color:#66d9ef>then</span>
+</span></span><span style=display:flex><span>            IPA_NAME<span style=color:#f92672>=</span><span style=color:#e6db74>`</span>basename <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span><span style=color:#e6db74>`</span>
+</span></span><span style=display:flex><span>            EXPORT_PATH<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$EXPORT_FOLDER<span style=color:#e6db74>/</span>$IPA_NAME<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>            cp <span style=color:#e6db74>&#34;</span>$1<span style=color:#e6db74>&#34;</span> <span style=color:#e6db74>&#34;</span>$EXPORT_PATH<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>            xattr -cr <span style=color:#e6db74>&#34;</span>$EXPORT_PATH<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>            echo <span style=color:#e6db74>&#34;Downloaded </span>$EXPORT_PATH<span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>fi</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>export -f handleIPA
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;Please download the app using Apple Configurator&#34;</span>
+</span></span><span style=display:flex><span>fswatch -0 <span style=color:#e6db74>&#34;</span>$WATCH_FOLDER<span style=color:#e6db74>&#34;</span> | xargs -0 -n <span style=color:#ae81ff>1</span> -I % bash -c <span style=color:#e6db74>&#39;handleIPA &#34;%&#34;&#39;</span>
+</span></span></code></pre></div></article><footer><hr><div class=legal_links><a href=/privacy>Privacy Policy</a>
 <a href=/imprint>Imprint</a>
-<a href=/digital-documents>Digital Documents</a>
-</div>
-©2019 — 2022, Noah Peeters, All Rights Reserved
-</footer>
-</body>
-</html>
+<a href=/digital-documents>Digital Documents</a></div>©2019 — 2022, Noah Peeters, All Rights Reserved</footer></body></html>
