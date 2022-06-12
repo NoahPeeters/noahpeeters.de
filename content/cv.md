@@ -30,18 +30,6 @@ Scholarships
 
 {{< print-page-break >}}
 
-Publications
---------
-* [Zusammenfassung Oberstufe Physik](/publication/misc/oberstufe-physik/)
-* [Open Source Software - Wie nehmen Endanwender Open Source Software wahr?](/publication/misc/nak-open-source-software/)
-* [Wie können UI-Tests die Qualitätssicherung von iOS Applikation verbessern?](/publication/misc/nak-transfer-paper-1/)
-* [Wie kann CodePush für die Verbreitung von React Native Apps eingesetzt werden?](/publication/misc/nak-transfer-paper-2/)
-* [Google Analytics for mobile apps shutdown: Analysis of the implication of switching to Google Firebase.](/publication/misc/nak-transfer-paper-3/)
-* [Comparison of package managers for iOS programming](/publication/misc/nak-transfer-paper-4/)
-* [How can a subscription based business model be extended with mobile app subscriptions?](/publication/misc/nak-transfer-paper-5/)
-* [Analyse der Verwendung von Datentypen in Swift Projekten](/publication/misc/nak-transfer-paper-6/)
-* [Nutzung abstrakter Datentypen zur Verbesserung der Codequalität](/publication/thesis/bs-applied-computer-science/)
-
 Teachings
 --------
 * Various Tutorings (mostly in math and computer science)
@@ -54,10 +42,6 @@ Work Experience
 * **Internship**, [_Computacenter AG & Co oHG_](https://www.computacenter.com), March 2014
 * **Internship**, [_expert SE_](https://www.expert.de/geesthacht/Footer/Unternehmen/Unser-Unternehmen), November 2015
 * **iOS Developer**, [_freenet.de GmbH_](https://freenet-group.de), October 2017 to _present_
-
-Technical Skills
---------
-* iOS development
 
 {{< print-page-break >}}
 
@@ -76,6 +60,7 @@ Service and Leadership
 * Member of the [Nordakademie](https://nordakademie.de) student parliament for research and sustainability, March 2020 to March 2021
 * Board member of the [BUNDjugend Schleswig-Holstein](https://www.bundjugend-sh.de), since December 2021
 * Board member of the [BUND Schleswig-Holstein](https://www.bundjugend-sh.de), since January 2021
+* 
 
 Memberships
 --------
