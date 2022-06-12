@@ -1,6 +1,5 @@
 ---
 title: "FidSpeed"
-date: 2019-12-10
 description: Mobile iOS app to measure the speed of fidget spinners
 draft: true
 resources:

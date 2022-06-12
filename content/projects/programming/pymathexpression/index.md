@@ -1,6 +1,5 @@
 ---
 title: "PyMathExpressions"
-date: 2016-08-10
 description: Python library for parsing and calculating expressions
 links:
  - name: GitHub

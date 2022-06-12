@@ -49,25 +49,25 @@ a {
     opacity: 0;
     pointer-events: none;
     position: absolute;
-    background: rgba(0,0,0,.75);
+    background: rgba(0, 0, 0, .75);
     border-radius: 4px;
     color: #fff;
     content: attr(href);
     font-size: 14px;
     padding: 6px 10px;
-      top: 26px;
+    top: 26px;
     white-space: nowrap;
-    transform: translate3d(0,-10px,0);
+    transform: translate3d(0, -10px, 0);
     transition: all .15s ease-in-out;
     z-index: 10000;
   }
 
   a[target="_blank"][href*="://"]:hover:before {
     opacity: 1;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
   }
 
-  a[target="_blank"][href*="://"]::after { 
+  a[target="_blank"][href*="://"]::after {
     content: " ↗";
   }
 }
@@ -182,5 +182,9 @@ blockquote {
 
   a {
     color: #444;
+  }
+
+  .print-pagebreak {
+    page-break-after: always;
   }
 }

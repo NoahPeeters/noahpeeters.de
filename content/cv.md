@@ -4,8 +4,18 @@ title: "CV"
 
 Electrical engineering and computer science student from Germany. Currently working as an iOS Developer. Interested in sustainability.
 
-Education
---------
+## Contact
+
+Mail: [noah@noahpeeters.de](mailto:noah@noahpeeters.de)  
+Phone: [+49 176 42987761](tel:004917642987761)
+
+Address:  
+{{< indent >}}[Posthof](https://posthof-rendsburg.de)  
+{{< indent >}}Nübbeler Weg 53  
+{{< indent >}}24768 Rendsburg
+
+# Education
+
 * **Primary School**, [_Silberbergschule_](https://gs-silberberg.de/), August 2005 to July 2009
 * **Abitur**, [_Otto-Hahn-Gymnasium Geesthacht_](http://ohg-geesthacht.de), August 2009 to June 2017
 * **Semester Abroad**, [_Riga Technical University_](https://rtu.lv/en), September 2019 to December 2019
@@ -16,6 +26,9 @@ Scholarships
 --------
 * **WWDC19 Scholarship**, _Apple Inc._, June 2019
 * **Intercultural Communication Summer Institute**, _Fulbright_, July 2019
+* **Deutschlandstipendium**, _Christian-Albrechts-Universität zu Kiel_, October 2021 to September 2022
+
+{{< print-page-break >}}
 
 Publications
 --------
@@ -31,7 +44,8 @@ Publications
 
 Teachings
 --------
-* Various Tutorings
+* Various Tutorings (mostly in math and computer science)
+  * All levels from grade 7 to undergraduate
 * Tutorial Discrete Mathematics 1
 * Tutorial Discrete Mathematics 2
 
@@ -44,6 +58,8 @@ Work Experience
 Technical Skills
 --------
 * iOS development
+
+{{< print-page-break >}}
 
 Languages
 --------
@@ -59,6 +75,7 @@ Service and Leadership
 * Chairman of the "Die PARTEI Hochschulgruppe Nordakademie", February 2020 to February 2021
 * Member of the [Nordakademie](https://nordakademie.de) student parliament for research and sustainability, March 2020 to March 2021
 * Board member of the [BUNDjugend Schleswig-Holstein](https://www.bundjugend-sh.de), since December 2021
+* Board member of the [BUND Schleswig-Holstein](https://www.bundjugend-sh.de), since January 2021
 
 Memberships
 --------
