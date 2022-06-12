@@ -6,8 +6,7 @@ title: Noah Peeters
 
 Hello there :wave:
 
-This is 
-
+I'm Noah Peeters, a remote iOS developer living in a community housing project on an old farm near Rendsburg.
 
 ### [Source Code](https://github.com/NoahPeeters/noahpeeters.de)
 
