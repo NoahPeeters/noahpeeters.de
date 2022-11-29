@@ -14,6 +14,7 @@ tags:
 <p><strong>Telefon</strong>: +4917642987761</p>
 <ul class="m-elements"></ul><h2 id="m154">Journalistisch-redaktionelle Angebote</h2><p><strong>Inhaltlich verantwortlich</strong>: Noah Peeters</p>
 <ul class="m-elements"></ul><h2 id="m172">Social Media und andere Onlinepräsenzen</h2><p><strong>Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile</strong>:</p> <p><a href="https://keybase.io/noahpeeters" target="_blank">https://keybase.io/noahpeeters</a></p>
+<p><a href="https://troet.cafe/@nono" target="_blank">https://troet.cafe/@nono</a></p>
 <p><a href="https://twitter.com/noah_peeters" target="_blank">https://twitter.com/noah_peeters</a></p>
 <p><a href="https://www.linkedin.com/in/noahpeeters/" target="_blank">https://www.linkedin.com/in/noahpeeters/</a></p>
 <p><a href="https://www.xing.com/profile/Noah_Peeters/" target="_blank">https://www.xing.com/profile/Noah_Peeters/</a></p>
