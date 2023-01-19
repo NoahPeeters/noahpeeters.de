@@ -20,7 +20,8 @@ Address:
 * **Abitur**, [_Otto-Hahn-Gymnasium Geesthacht_](http://ohg-geesthacht.de), August 2009 to June 2017
 * **Semester Abroad**, [_Riga Technical University_](https://rtu.lv/en), September 2019 to December 2019
 * **B.S. in Applied Computer Science**, [_Nordakademie Hochschule der Wirtschaft_](https://nordakademie.de), October 2017 to March 2021
-* **B.S. in Electrical Engineering and Information Technologies**, [_Christian-Albrechts-Universität zu Kiel_](https://www.uni-kiel.de/en/), April 2021 to March 2025 (expected)
+* **Gap study in Electrical Engineering and Information Technologies**, [_Christian-Albrechts-Universität zu Kiel_](https://www.uni-kiel.de/en/), April 2021 to September 2022
+* **M.S. in Applied Data Science**, [_Nordakademie Hochschule der Wirtschaft_](https://nordakademie.de), October 2022 to September 2024 (expected)
 
 Scholarships
 --------
