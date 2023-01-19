@@ -2,7 +2,7 @@
 title: "CV"
 ---
 
-Electrical engineering and computer science student from Germany. Currently working as an iOS Developer. Interested in sustainability.
+Data science student and iOS Developer from Germany. Currently working as an iOS Developer. Interested in sustainability.
 
 ## Contact
 
